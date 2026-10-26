@@ -50,7 +50,7 @@ export function getAiConfig() {
   loadServerEnv();
 
   const apiKey = process.env.AI_API_KEY || process.env.GEMINI_API_KEY || '';
-  const model = process.env.AI_MODEL || 'gemini-2.5-flash';
+  const model = process.env.AI_MODEL || 'gemini-3.8-flash';
   const provider = process.env.AI_PROVIDER || 'gemini';
 
   const isPlaceholder =
