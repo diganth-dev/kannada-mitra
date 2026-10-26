@@ -173,7 +173,7 @@ export function AiTutorScreen({
   // 4. Voice Input (Speech-to-Text) State
   const isVoiceSupported = useMemo(() => isSpeechRecognitionSupported(), []);
   const [voiceLang, setVoiceLang] = useState(() => {
-    return getStoredVoiceLanguage(effectiveUserId) || 'Kannada';
+    return getStoredVoiceLanguage(effectiveUserId) || 'English';
   });
   const [voiceState, setVoiceState] = useState('idle'); // 'idle' | 'requesting' | 'listening' | 'processing' | 'error'
   const [voiceError, setVoiceError] = useState(null);
@@ -1442,6 +1442,46 @@ export function AiTutorScreen({
               </div>
             </div>
 
+            {/* Quick 1-Click Language Switcher Chips directly on the live banner */}
+            <div className="flex items-center gap-1.5 flex-wrap pt-2 border-t border-red-200/70">
+              <span className="text-[11px] font-bold text-stone-600 flex items-center gap-1 mr-0.5">
+                <Languages className="w-3.5 h-3.5 text-red-600" />
+                Listening in:
+              </span>
+              {['English', 'Kannada', motherTongueObj.name].filter((v, i, a) => a.indexOf(v) === i).map((langName) => {
+                const langItem = SPEECH_RECOGNITION_LANGUAGES.find((l) => l.name === langName || l.id === langName);
+                if (!langItem) return null;
+                const isSelected = voiceLang === langItem.id;
+                return (
+                  <button
+                    key={langItem.id}
+                    type="button"
+                    onClick={() => handleSwitchVoiceLangLive(langItem.id)}
+                    className={`px-2.5 py-1 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                      isSelected
+                        ? 'bg-red-600 text-white shadow-xs'
+                        : 'bg-white/95 text-stone-700 hover:bg-white border border-stone-200 shadow-2xs hover:border-red-300'
+                    }`}
+                  >
+                    {langItem.name} ({langItem.nativeName})
+                  </button>
+                );
+              })}
+              <select
+                value={voiceLang}
+                onChange={(e) => handleSwitchVoiceLangLive(e.target.value)}
+                className="px-2 py-1 bg-white/95 border border-stone-200 rounded-xl text-xs text-stone-700 font-semibold cursor-pointer shadow-2xs hover:border-red-300"
+                aria-label="Select speech language"
+              >
+                <option value="" disabled>More...</option>
+                {SPEECH_RECOGNITION_LANGUAGES.map((l) => (
+                  <option key={l.id} value={l.id}>
+                    {l.name} ({l.nativeName})
+                  </option>
+                ))}
+              </select>
+            </div>
+
             {/* LIVE STREAMING SPEECH DISPLAY: Words appear here immediately while speaking */}
             <div className="bg-white/95 rounded-xl p-3 border border-amber-200/90 shadow-2xs min-h-[48px] flex items-center">
               {liveFinal || liveInterim ? (
@@ -1592,7 +1632,7 @@ export function AiTutorScreen({
                 }
               >
                 <Mic className="w-4 h-4" />
-                <span>Speak</span>
+                <span>Speak ({voiceLangObj.name})</span>
               </button>
             )}
 
