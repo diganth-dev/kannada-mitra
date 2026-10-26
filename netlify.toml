@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/ai-tutor"
+  to = "/.netlify/functions/ai-tutor"
+  status = 200
+
+[[redirects]]
+  from = "/api/ai-tutor/*"
+  to = "/.netlify/functions/ai-tutor/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
