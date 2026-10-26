@@ -1,0 +1,1649 @@
+{
+  "Greetings": [
+    {
+      "id": "greet_001",
+      "category": "Greetings",
+      "kannada": "ನಮಸ್ಕಾರ",
+      "pronunciation": "Namaskāra",
+      "english": "Hello / Greetings",
+      "translations": {
+        "Telugu": "నమస్కారం (Namaskāram)",
+        "Tamil": "வணக்கம் (Vanakkam)",
+        "Hindi": "नमस्ते (Namaste)",
+        "Malayalam": "നമസ്കാരം (Namaskāram)",
+        "Marathi": "नमस्कार (Namaskār)",
+        "Tulu": "ಸೊಲ್ಮೆಲು (Solmelu - Greeting)",
+        "English": "Hello / Greetings"
+      },
+      "example": {
+        "kannada": "ಎಲ್ಲರಿಗೂ ನಮಸ್ಕಾರ.",
+        "pronunciation": "Ellarigū namaskāra.",
+        "english": "Hello everyone.",
+        "translations": {
+          "Telugu": "అందరికీ నమస్కారం.",
+          "Tamil": "அனைவருக்கும் வணக்கம்.",
+          "Hindi": "सभी को नमस्ते।",
+          "Malayalam": "എല്ലാവർക്കും നമസ്കാരം.",
+          "Marathi": "सर्वांना नमस्कार.",
+          "Tulu": "ಮಾತೆರೆಗ್ಲಾ ಸೊಲ್ಮೆಲು.",
+          "English": "Hello everyone."
+        }
+      },
+      "culturalNote": "Traditional respectful greeting used at any time of day with folded hands."
+    },
+    {
+      "id": "greet_002",
+      "category": "Greetings",
+      "kannada": "ಧನ್ಯವಾದ",
+      "pronunciation": "Dhanyavāda",
+      "english": "Thank you",
+      "translations": {
+        "Telugu": "ధన్యవాదాలు (Dhanyavādālu)",
+        "Tamil": "நன்றி (Nandri)",
+        "Hindi": "धन्यवाद (Dhanyavād)",
+        "Malayalam": "നന്ദി (Nandi)",
+        "Marathi": "धन्यवाद (Dhanyavād)",
+        "Tulu": "ಸೊಲ್ಮೆಲು (Solmelu - Thank you)",
+        "English": "Thank you"
+      },
+      "example": {
+        "kannada": "ನಿಮ್ಮ ಸಹಾಯಕ್ಕೆ ಧನ್ಯವಾದ.",
+        "pronunciation": "Nimma sahāyakke dhanyavāda.",
+        "english": "Thank you for your help.",
+        "translations": {
+          "Telugu": "మీ సహాయానికి ధన్యవాదాలు.",
+          "Tamil": "உங்கள் உதவிக்கு நன்றி.",
+          "Hindi": "आपकी मदद के लिए धन्यवाद।",
+          "Malayalam": "നിങ്ങളുടെ സഹായത്തിന് നന്ദി.",
+          "Marathi": "तुमच्या मदतीबद्दल धन्यवाद.",
+          "Tulu": "ಈರೆನ ಸಹಾಯೊಗು ಸೊಲ್ಮೆಲು.",
+          "English": "Thank you for your help."
+        }
+      },
+      "culturalNote": "Often pronounced \"Dhanyavaadagalu\" (plural/formal)."
+    },
+    {
+      "id": "greet_003",
+      "category": "Greetings",
+      "kannada": "ಶುಭೋದಯ",
+      "pronunciation": "Shubhodaya",
+      "english": "Good morning",
+      "translations": {
+        "Telugu": "శుభోదయం (Shubhōdayam)",
+        "Tamil": "காலை வணக்கம் (Kālai vanakkam)",
+        "Hindi": "सुप्रभात (Suprabhāt)",
+        "Malayalam": "സുപ്രഭാതം (Suprabhātham)",
+        "Marathi": "शुभ सकाळ (Shubha sakāḷ)",
+        "Tulu": "ಶುಭೋದಯ (Shubhodaya)",
+        "English": "Good morning"
+      },
+      "example": {
+        "kannada": "ಶುಭೋದಯ, ದಿನ ಶುಭವಾಗಿರಲಿ.",
+        "pronunciation": "Shubhodaya, dina shubhavāgirali.",
+        "english": "Good morning, have a nice day.",
+        "translations": {
+          "Telugu": "శుభోదయం, మీ రోజు బాగుండాలి.",
+          "Tamil": "காலை வணக்கம், நல்ல நாளாக அமையட்டும்.",
+          "Hindi": "सुप्रभात, आपका दिन शुभ हो।",
+          "Malayalam": "സുപ്രഭാതം, നല്ലൊരു ദിവസം ആശംസിക്കുന്നു.",
+          "Marathi": "शुभ सकाळ, आपला दिवस चांगला जावो.",
+          "Tulu": "ಶುಭೋದಯ, ದಿನ ಎಡ್ಡೆಯಾವಡ್.",
+          "English": "Good morning, have a nice day."
+        }
+      }
+    },
+    {
+      "id": "greet_004",
+      "category": "Greetings",
+      "kannada": "ಹೇಗಿದ್ದೀರಾ?",
+      "pronunciation": "Hēgiddīrā?",
+      "english": "How are you? (Polite/Formal)",
+      "translations": {
+        "Telugu": "ఎలా ఉన్నారు? (Elā unnāru?)",
+        "Tamil": "எப்படி இருக்கிறீர்கள்? (Eppadi irukkirīrgal?)",
+        "Hindi": "आप कैसे हैं? (Aap kaise hain?)",
+        "Malayalam": "സുഖമാണോ? (Sukhamāno?)",
+        "Marathi": "तुम्ही कसे आहात? (Tumhi kase aahat?)",
+        "Tulu": "ಎಂಚ ಉಲ್ಲರ್? (Encha ullar?)",
+        "English": "How are you?"
+      },
+      "example": {
+        "kannada": "ನಮಸ್ಕಾರ ಸರ್, ಹೇಗಿದ್ದೀರಾ?",
+        "pronunciation": "Namaskāra sir, hēgiddīrā?",
+        "english": "Hello sir, how are you?",
+        "translations": {
+          "Telugu": "నమస్కారం సర్, ఎలా ఉన్నారు?",
+          "Tamil": "வணக்கம் ஐயா, எப்படி இருக்கிறீர்கள்?",
+          "Hindi": "नमस्ते सर, आप कैसे हैं?",
+          "Malayalam": "നമസ്കാരം സാർ, സുഖമാണോ?",
+          "Marathi": "नमस्कार सर, तुम्ही कसे आहात?",
+          "Tulu": "ಸೊಲ್ಮೆಲು ಸರ್, ಎಂಚ ಉಲ್ಲರ್?",
+          "English": "Hello sir, how are you?"
+        }
+      },
+      "culturalNote": "Add \"-ra\" at the end to show respect to elders or strangers."
+    },
+    {
+      "id": "greet_005",
+      "category": "Greetings",
+      "kannada": "ಚೆನ್ನಾಗಿದ್ದೇನೆ",
+      "pronunciation": "Chennāgiddēne",
+      "english": "I am doing well / fine",
+      "translations": {
+        "Telugu": "బాగున్నాను (Bāgunnānu)",
+        "Tamil": "நன்றாக இருக்கிறேன் (Nandrāga irukkirēn)",
+        "Hindi": "मैं ठीक हूँ (Main theek hoon)",
+        "Malayalam": "സുഖമായിരിക്കുന്നു (Sukhamāyirikkunnu)",
+        "Marathi": "मी मजेत आहे (Mee majet aahe)",
+        "Tulu": "ಎಡ್ಡೆ ಉಲ್ಲೆ (Edde ulle)",
+        "English": "I am doing well"
+      },
+      "example": {
+        "kannada": "ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ, ನೀವು?",
+        "pronunciation": "Nānu chennāgiddēne, nīvu?",
+        "english": "I am fine, and you?",
+        "translations": {
+          "Telugu": "నేను బాగున్నాను, మీరు?",
+          "Tamil": "நான் நன்றாக இருக்கிறேன், நீங்கள்?",
+          "Hindi": "मैं ठीक हूँ, और आप?",
+          "Malayalam": "എനിക്ക് സുഖമാണ്, നിങ്ങളോ?",
+          "Marathi": "मी ठीक आहे, तुम्ही?",
+          "Tulu": "ಯಾನ್ ಎಡ್ಡೆ ಉಲ್ಲೆ, ಈರ್?",
+          "English": "I am fine, and you?"
+        }
+      }
+    },
+    {
+      "id": "greet_006",
+      "category": "Greetings",
+      "kannada": "ದಯವಿಟ್ಟು",
+      "pronunciation": "Dayavittu",
+      "english": "Please",
+      "translations": {
+        "Telugu": "దయచేసి (Dayachēsi)",
+        "Tamil": "தயவுசெய்து (Thayavuseithu)",
+        "Hindi": "कृपया (Kripayā)",
+        "Malayalam": "ദയവായി (Dayavāyi)",
+        "Marathi": "कृपया (Krupaya)",
+        "Tulu": "ದಯಮಲ್ತ್ (Dayamalth)",
+        "English": "Please"
+      },
+      "example": {
+        "kannada": "ದಯವಿಟ್ಟು ಇಲ್ಲಿ ಕುಳಿತುಕೊಳ್ಳಿ.",
+        "pronunciation": "Dayavittu illi kuḷitukoḷḷi.",
+        "english": "Please sit here.",
+        "translations": {
+          "Telugu": "దయచేసి ఇక్కడ కూర్చోండి.",
+          "Tamil": "தயவுசெய்து இங்கே உட்காருங்கள்.",
+          "Hindi": "कृपया यहाँ बैठिए।",
+          "Malayalam": "ദയവായി ഇവിടെ ഇരിക്കൂ.",
+          "Marathi": "कृपया इथे बसा.",
+          "Tulu": "ದಯಮಲ್ತ್ ಮುಲ್ಪ ಕುಲ್ಲೆಲೆ.",
+          "English": "Please sit here."
+        }
+      }
+    },
+    {
+      "id": "greet_007",
+      "category": "Greetings",
+      "kannada": "ಕ್ಷಮಿಸಿ",
+      "pronunciation": "Kshamisi",
+      "english": "Sorry / Excuse me",
+      "translations": {
+        "Telugu": "క్షమించండి (Kshaminchandi)",
+        "Tamil": "மன்னிக்கவும் (Mannikkavum)",
+        "Hindi": "माफ़ कीजिए (Maaf kijiye)",
+        "Malayalam": "ക്ഷമിക്കണം (Kshamikkanam)",
+        "Marathi": "माफ करा (Maaf kara)",
+        "Tulu": "ಮಾಪು ಮಲ್ಪುಲೆ (Maapu malpule)",
+        "English": "Sorry / Excuse me"
+      },
+      "example": {
+        "kannada": "ಕ್ಷಮಿಸಿ, ನನಗೆ ತಡವಾಯಿತು.",
+        "pronunciation": "Kshamisi, nanage taḍavāyitu.",
+        "english": "Sorry, I got late.",
+        "translations": {
+          "Telugu": "క్షమించండి, నాకు ఆలస్యమైంది.",
+          "Tamil": "மன்னிக்கவும், எனக்கு தாமதமாகிவிட்டது.",
+          "Hindi": "माफ़ कीजिए, मुझे देर हो गई।",
+          "Malayalam": "ക്ഷമിക്കണം, എനിക്ക് വൈകിപ്പോയി.",
+          "Marathi": "माफ करा, मला उशीर झाला.",
+          "Tulu": "ಮಾಪು ಮಲ್ಪುಲೆ, ಎಂಕ್ ತಡ ಆಂಡ್.",
+          "English": "Sorry, I got late."
+        }
+      }
+    },
+    {
+      "id": "greet_008",
+      "category": "Greetings",
+      "kannada": "ಮತ್ತೆ ಸಿಗೋಣ",
+      "pronunciation": "Matthe sigōṇa",
+      "english": "See you again / Bye",
+      "translations": {
+        "Telugu": "మళ్ళీ కలుద్దాం (Maḷḷī kaluddām)",
+        "Tamil": "மீண்டும் சந்திப்போம் (Mēndum santhippōm)",
+        "Hindi": "फिर मिलेंगे (Phir milenge)",
+        "Malayalam": "വീണ്ടും കാണാം (Vīṇdum kāṇām)",
+        "Marathi": "पुन्हा भेटू (Punhā bhetu)",
+        "Tulu": "ಕುಡ ತಿಗೊ (Kuda thigo)",
+        "English": "See you again"
+      },
+      "example": {
+        "kannada": "ಹೋಗಿ ಬರುತ್ತೇನೆ, ಮತ್ತೆ ಸಿಗೋಣ.",
+        "pronunciation": "Hōgi baruttēne, matthe sigōṇa.",
+        "english": "I will take leave, see you again.",
+        "translations": {
+          "Telugu": "వెళ్లొస్తాను, మళ్ళీ కలుద్దాం.",
+          "Tamil": "போய் வருகிறேன், மீண்டும் சந்திப்போம்.",
+          "Hindi": "चलता हूँ, फिर मिलेंगे।",
+          "Malayalam": "പോയി വരാം, വീണ്ടും കാണാം.",
+          "Marathi": "येतो, पुन्हा भेटू.",
+          "Tulu": "ಪೋದು ಬರ್ಪೆ, ಕುಡ ತಿಗೊ.",
+          "English": "I will take leave, see you again."
+        }
+      },
+      "culturalNote": "In Kannada culture, you rarely say \"I go\", but rather \"Hogi baruttene\" (I will go and return)."
+    }
+  ],
+  "Everyday Words": [
+    {
+      "id": "everyday_001",
+      "category": "Everyday Words",
+      "kannada": "ಹೌದು",
+      "pronunciation": "Haudu",
+      "english": "Yes",
+      "translations": {
+        "Telugu": "అవును (Avunu)",
+        "Tamil": "ஆம் (Ām)",
+        "Hindi": "हाँ (Haan)",
+        "Malayalam": "അതെ (Athe)",
+        "Marathi": "हो (Ho)",
+        "Tulu": "ಅಂದ್ (And)",
+        "English": "Yes"
+      },
+      "example": {
+        "kannada": "ಹೌದು, ಇದು ನನ್ನ ಪುಸ್ತಕ.",
+        "pronunciation": "Haudu, idu nanna pustaka.",
+        "english": "Yes, this is my book.",
+        "translations": {
+          "Telugu": "అవును, ఇది నా పుస్తకం.",
+          "Tamil": "ஆம், இது என் புத்தகம்.",
+          "Hindi": "हाँ, यह मेरी किताब है।",
+          "Malayalam": "അതെ, ഇത് എൻ്റെ പുസ്തകമാണ്.",
+          "Marathi": "हो, हे माझं पुस्तक आहे.",
+          "Tulu": "ಅಂದ್, ಉಂದು ಎನ್ನ ಪುಸ್ತಕೊ.",
+          "English": "Yes, this is my book."
+        }
+      }
+    },
+    {
+      "id": "everyday_002",
+      "category": "Everyday Words",
+      "kannada": "ಇಲ್ಲ",
+      "pronunciation": "Illa",
+      "english": "No / Not there",
+      "translations": {
+        "Telugu": "లేదు / కాదు (Lēdu / Kādu)",
+        "Tamil": "இல்லை (Illai)",
+        "Hindi": "नहीं (Nahīn)",
+        "Malayalam": "ഇല്ല (Illa)",
+        "Marathi": "नाही (Nāhī)",
+        "Tulu": "ಇಜ್ಜಿ (Ijji)",
+        "English": "No / Not there"
+      },
+      "example": {
+        "kannada": "ಇಲ್ಲ, ನನಗೆ ಬೇಡ.",
+        "pronunciation": "Illa, nanage bēḍa.",
+        "english": "No, I don't want it.",
+        "translations": {
+          "Telugu": "లేదు, నాకు వద్దు.",
+          "Tamil": "இல்லை, எனக்கு வேண்டாம்.",
+          "Hindi": "नहीं, मुझे नहीं चाहिए।",
+          "Malayalam": "ഇല്ല, എനിക്ക് വേണ്ട.",
+          "Marathi": "नाही, मला नको आहे.",
+          "Tulu": "ಇಜ್ಜಿ, ಎಂಕ್ ಬೊಡ್ಚಿ.",
+          "English": "No, I don't want it."
+        }
+      }
+    },
+    {
+      "id": "everyday_003",
+      "category": "Everyday Words",
+      "kannada": "ಬೇಕು",
+      "pronunciation": "Bēku",
+      "english": "Want / Needed",
+      "translations": {
+        "Telugu": "కావాలి (Kāvāli)",
+        "Tamil": "வேண்டும் (Vēṇdum)",
+        "Hindi": "चाहिए (Chāhiye)",
+        "Malayalam": "വേണം (Vēṇam)",
+        "Marathi": "हवे आहे (Have āhe)",
+        "Tulu": "ಬೋಡು (Bōḍu)",
+        "English": "Want / Needed"
+      },
+      "example": {
+        "kannada": "ನನಗೆ ನೀರು ಬೇಕು.",
+        "pronunciation": "Nanage nīru bēku.",
+        "english": "I want water.",
+        "translations": {
+          "Telugu": "నాకు నీళ్ళు కావాలి.",
+          "Tamil": "எனக்கு தண்ணீர் வேண்டும்.",
+          "Hindi": "मुझे पानी चाहिए।",
+          "Malayalam": "എനിക്ക് വെള്ളം വേണം.",
+          "Marathi": "मला पाणी हवे आहे.",
+          "Tulu": "ಎಂಕ್ ನೀರ್ ಬೋಡು.",
+          "English": "I want water."
+        }
+      },
+      "culturalNote": "One of the top 3 most useful words in daily life across Karnataka!"
+    },
+    {
+      "id": "everyday_004",
+      "category": "Everyday Words",
+      "kannada": "ಬೇಡ",
+      "pronunciation": "Bēḍa",
+      "english": "Don't want / Not needed",
+      "translations": {
+        "Telugu": "వద్దు (Vaddu)",
+        "Tamil": "வேண்டாம் (Vēṇḍām)",
+        "Hindi": "नहीं चाहिए (Nahīn chāhiye)",
+        "Malayalam": "വേണ്ട (Vēṇda)",
+        "Marathi": "नको (Nako)",
+        "Tulu": "ಬೊಡ್ಚಿ (Boḍchi)",
+        "English": "Don't want / Not needed"
+      },
+      "example": {
+        "kannada": "ಸಕ್ಕರೆ ಬೇಡ.",
+        "pronunciation": "Sakkare bēḍa.",
+        "english": "No sugar, please.",
+        "translations": {
+          "Telugu": "చక్కెర వద్దు.",
+          "Tamil": "சர்க்கரை வேண்டாம்.",
+          "Hindi": "चीनी नहीं चाहिए।",
+          "Malayalam": "പഞ്ചസാര വേണ്ട.",
+          "Marathi": "साखर नको.",
+          "Tulu": "ಸಕ್ಕರೆ ಬೊಡ್ಚಿ.",
+          "English": "No sugar, please."
+        }
+      }
+    },
+    {
+      "id": "everyday_005",
+      "category": "Everyday Words",
+      "kannada": "ಗೊತ್ತು",
+      "pronunciation": "Gottu",
+      "english": "Know / Familiar with",
+      "translations": {
+        "Telugu": "తెలుసు (Telusu)",
+        "Tamil": "தெரியும் (Theriyum)",
+        "Hindi": "पता है / आता है (Pata hai)",
+        "Malayalam": "അറിയാം (Ariyām)",
+        "Marathi": "माहीत आहे (Māhīt āhe)",
+        "Tulu": "ಗೊತ್ತು (Gottu)",
+        "English": "Know / Familiar with"
+      },
+      "example": {
+        "kannada": "ನನಗೆ ಈ ದಾರಿ ಗೊತ್ತು.",
+        "pronunciation": "Nanage ī dāri gottu.",
+        "english": "I know this route.",
+        "translations": {
+          "Telugu": "నాకు ఈ దారి తెలుసు.",
+          "Tamil": "எனக்கு இந்த வழி தெரியும்.",
+          "Hindi": "मुझे यह रास्ता पता है।",
+          "Malayalam": "എനിക്ക് ഈ വഴി അറിയാം.",
+          "Marathi": "मला हा रस्ता माहीत आहे.",
+          "Tulu": "ಎಂಕ್ ಈ ಸಾದಿ ಗೊತ್ತು.",
+          "English": "I know this route."
+        }
+      }
+    },
+    {
+      "id": "everyday_006",
+      "category": "Everyday Words",
+      "kannada": "ಗೊತ್ತಿಲ್ಲ",
+      "pronunciation": "Gottilla",
+      "english": "Don't know",
+      "translations": {
+        "Telugu": "తెలీదు (Telīdu)",
+        "Tamil": "தெரியாது (Theriyāthu)",
+        "Hindi": "नहीं पता (Nahīn pata)",
+        "Malayalam": "അറിയില്ല (Ariyilla)",
+        "Marathi": "माहीत नाही (Māhīt nāhī)",
+        "Tulu": "ಗೊತ್ತಿಜ್ಜಿ (Gottijji)",
+        "English": "Don't know"
+      },
+      "example": {
+        "kannada": "ನನಗೆ ಅವರ ಹೆಸರು ಗೊತ್ತಿಲ್ಲ.",
+        "pronunciation": "Nanage avara hesaru gottilla.",
+        "english": "I do not know their name.",
+        "translations": {
+          "Telugu": "నాకు వారి పేరు తెలీదు.",
+          "Tamil": "எனக்கு அவர்கள் பெயர் தெரியாது.",
+          "Hindi": "मुझे उनका नाम नहीं पता।",
+          "Malayalam": "എനിക്ക് അവരുടെ പേര് അറിയില്ല.",
+          "Marathi": "मला त्यांचं नाव माहीत नाही.",
+          "Tulu": "ಎಂಕ್ ಅರೆನ ಪುದರ್ ಗೊತ್ತಿಜ್ಜಿ.",
+          "English": "I do not know their name."
+        }
+      }
+    },
+    {
+      "id": "everyday_007",
+      "category": "Everyday Words",
+      "kannada": "ಸರಿ",
+      "pronunciation": "Sari",
+      "english": "Okay / Correct / Right",
+      "translations": {
+        "Telugu": "సరే (Sarē)",
+        "Tamil": "சரி (Sari)",
+        "Hindi": "ठीक है (Theek hai)",
+        "Malayalam": "ശരി (Shari)",
+        "Marathi": "बरोबर / ठीक (Barobar / Theek)",
+        "Tulu": "ಸರಿ (Sari)",
+        "English": "Okay / Correct"
+      },
+      "example": {
+        "kannada": "ಸರಿ, ನಾಳೆ ಭೇಟಿಯಾಗೋಣ.",
+        "pronunciation": "Sari, nāḷe bhēṭiyāgōṇa.",
+        "english": "Okay, let's meet tomorrow.",
+        "translations": {
+          "Telugu": "సరే, రేపు కలుద్దాం.",
+          "Tamil": "சரி, நாளை சந்திப்போம்.",
+          "Hindi": "ठीक है, कल मिलते हैं।",
+          "Malayalam": "ശരി, നാളെ കാണാം.",
+          "Marathi": "ठीक आहे, उद्या भेटू.",
+          "Tulu": "ಸರಿ, ಎಲ್ಲೆ ತಿಗೊ.",
+          "English": "Okay, let's meet tomorrow."
+        }
+      }
+    },
+    {
+      "id": "everyday_008",
+      "category": "Everyday Words",
+      "kannada": "ತುಂಬಾ",
+      "pronunciation": "Thumbā",
+      "english": "Very / A lot",
+      "translations": {
+        "Telugu": "చాలా (Chālā)",
+        "Tamil": "ரொம்ப (Romba)",
+        "Hindi": "बहुत (Bahut)",
+        "Malayalam": "വളരെ (Vaḷare)",
+        "Marathi": "खूप (Khoop)",
+        "Tulu": "ಬಾರೀ (Bārī)",
+        "English": "Very / A lot"
+      },
+      "example": {
+        "kannada": "ಇದು ತುಂಬಾ ಒಳ್ಳೆಯದು.",
+        "pronunciation": "Idu thumbā oḷḷeyadu.",
+        "english": "This is very good.",
+        "translations": {
+          "Telugu": "ఇది చాలా మంచిది.",
+          "Tamil": "இது ரொம்ப நல்லது.",
+          "Hindi": "यह बहुत अच्छा है।",
+          "Malayalam": "ഇത് വളരെ നല്ലതാണ്.",
+          "Marathi": "हे खूप छान आहे.",
+          "Tulu": "ಉಂದು ಬಾರೀ ಎಡ್ಡೆ.",
+          "English": "This is very good."
+        }
+      }
+    }
+  ],
+  "Numbers": [
+    {
+      "id": "num_001",
+      "category": "Numbers",
+      "kannada": "ಒಂದು",
+      "pronunciation": "Ondu",
+      "english": "One (1)",
+      "translations": {
+        "Telugu": "ఒకటి (Okaṭi)",
+        "Tamil": "ஒன்று (Ondru)",
+        "Hindi": "एक (Ek)",
+        "Malayalam": "ഒന്ന് (Onnu)",
+        "Marathi": "एक (Ek)",
+        "Tulu": "ಒಂಜಿ (Onji)",
+        "English": "One (1)"
+      },
+      "example": {
+        "kannada": "ಒಂದು ಕಾಫಿ ಕೊಡಿ.",
+        "pronunciation": "Ondu coffee koḍi.",
+        "english": "Please give one coffee.",
+        "translations": {
+          "Telugu": "ఒక కాఫీ ఇవ్వండి.",
+          "Tamil": "ஒரு காபி கொடுங்கள்.",
+          "Hindi": "एक कॉफ़ी दीजिए।",
+          "Malayalam": "ഒരു കാപ്പി തരൂ.",
+          "Marathi": "एक कॉफी द्या.",
+          "Tulu": "ಒಂಜಿ ಕಾಫಿ ಕೊರ್ಲೆ.",
+          "English": "Please give one coffee."
+        }
+      }
+    },
+    {
+      "id": "num_002",
+      "category": "Numbers",
+      "kannada": "ಎರಡು",
+      "pronunciation": "Eraḍu",
+      "english": "Two (2)",
+      "translations": {
+        "Telugu": "రెండు (Reṇḍu)",
+        "Tamil": "இரண்டு (Iraṇdu)",
+        "Hindi": "दो (Do)",
+        "Malayalam": "രണ്ട് (Raṇḍu)",
+        "Marathi": "दोन (Don)",
+        "Tulu": "ರಡ್ಡ್ (Rad'd)",
+        "English": "Two (2)"
+      },
+      "example": {
+        "kannada": "ಎರಡು ಟಿಕೆಟ್ ಬೇಕು.",
+        "pronunciation": "Eraḍu ticket bēku.",
+        "english": "Need two tickets.",
+        "translations": {
+          "Telugu": "రెండు టికెట్లు కావాలి.",
+          "Tamil": "இரண்டு டிக்கெட் வேண்டும்.",
+          "Hindi": "दो टिकट चाहिए।",
+          "Malayalam": "രണ്ട് ടിക്കറ്റ് വേണം.",
+          "Marathi": "दोन तिकीट हवे आहेत.",
+          "Tulu": "ರಡ್ಡ್ ಟಿಕೆಟ್ ಬೋಡು.",
+          "English": "Need two tickets."
+        }
+      }
+    },
+    {
+      "id": "num_003",
+      "category": "Numbers",
+      "kannada": "ಮೂರು",
+      "pronunciation": "Mūru",
+      "english": "Three (3)",
+      "translations": {
+        "Telugu": "మూడు (Mūḍu)",
+        "Tamil": "மூன்று (Mūndru)",
+        "Hindi": "तीन (Teen)",
+        "Malayalam": "മൂന്ന് (Mūnnu)",
+        "Marathi": "तीन (Teen)",
+        "Tulu": "ಮೂಜಿ (Mūji)",
+        "English": "Three (3)"
+      },
+      "example": {
+        "kannada": "ಮೂರು ದಿನಗಳು.",
+        "pronunciation": "Mūru dinagaḷu.",
+        "english": "Three days.",
+        "translations": {
+          "Telugu": "మూడు రోజులు.",
+          "Tamil": "மூன்று நாட்கள்.",
+          "Hindi": "तीन दिन।",
+          "Malayalam": "മൂന്ന് ദിവസങ്ങൾ.",
+          "Marathi": "तीन दिवस.",
+          "Tulu": "ಮೂಜಿ ದಿನೊಕುಲು.",
+          "English": "Three days."
+        }
+      }
+    },
+    {
+      "id": "num_004",
+      "category": "Numbers",
+      "kannada": "ನಾಲ್ಕು",
+      "pronunciation": "Nālku",
+      "english": "Four (4)",
+      "translations": {
+        "Telugu": "నాలుగు (Nālugu)",
+        "Tamil": "நான்கு (Nāngu)",
+        "Hindi": "चार (Chār)",
+        "Malayalam": "നാല് (Nālu)",
+        "Marathi": "चार (Chār)",
+        "Tulu": "ನಾಲ್ (Nāl)",
+        "English": "Four (4)"
+      },
+      "example": {
+        "kannada": "ನಾಲ್ಕು ಗಂಟೆ.",
+        "pronunciation": "Nālku gaṇṭe.",
+        "english": "Four o'clock.",
+        "translations": {
+          "Telugu": "నాలుగు గంటలు.",
+          "Tamil": "நான்கு மணி.",
+          "Hindi": "चार बजे।",
+          "Malayalam": "നാല് മണി.",
+          "Marathi": "चार वाजता.",
+          "Tulu": "ನಾಲ್ ಗಂಟೆ.",
+          "English": "Four o'clock."
+        }
+      }
+    },
+    {
+      "id": "num_005",
+      "category": "Numbers",
+      "kannada": "ಐದು",
+      "pronunciation": "Aidu",
+      "english": "Five (5)",
+      "translations": {
+        "Telugu": "ఐదు (Aidu)",
+        "Tamil": "ஐந்து (Ainthu)",
+        "Hindi": "पाँच (Pānch)",
+        "Malayalam": "അഞ്ച് (Anju)",
+        "Marathi": "पाच (Pāch)",
+        "Tulu": "ಐನ್ (Ain)",
+        "English": "Five (5)"
+      },
+      "example": {
+        "kannada": "ಐದು ನಿಮಿಷ ಕಾಯಿರಿ.",
+        "pronunciation": "Aidu nimisha kāyiri.",
+        "english": "Wait for five minutes.",
+        "translations": {
+          "Telugu": "ఐదు నిమిషాలు వేచి ఉండండి.",
+          "Tamil": "ஐந்து நிமிடம் காத்திருங்கள்.",
+          "Hindi": "पाँच मिनट रुकिए।",
+          "Malayalam": "അഞ്ച് മിനിറ്റ് കാത്തിരിക്കൂ.",
+          "Marathi": "पाच मिनिटे थांबा.",
+          "Tulu": "ಐನ್ ನಿಮಿಷ ಉಂತುಲೆ.",
+          "English": "Wait for five minutes."
+        }
+      }
+    },
+    {
+      "id": "num_006",
+      "category": "Numbers",
+      "kannada": "ಹತ್ತು",
+      "pronunciation": "Hatthu",
+      "english": "Ten (10)",
+      "translations": {
+        "Telugu": "పది (Padi)",
+        "Tamil": "பத்து (Pathu)",
+        "Hindi": "दस (Das)",
+        "Malayalam": "പത്ത് (Pathu)",
+        "Marathi": "दहा (Dahā)",
+        "Tulu": "ಪತ್ತ್ (Path)",
+        "English": "Ten (10)"
+      },
+      "example": {
+        "kannada": "ಹತ್ತು ರೂಪಾಯಿ.",
+        "pronunciation": "Hatthu rūpāyi.",
+        "english": "Ten rupees.",
+        "translations": {
+          "Telugu": "పది రూపాయలు.",
+          "Tamil": "பத்து ரூபாய்.",
+          "Hindi": "दस रुपये।",
+          "Malayalam": "പത്ത് രൂപ.",
+          "Marathi": "दहा रुपये.",
+          "Tulu": "ಪತ್ತ್ ರೂಪಾಯಿ.",
+          "English": "Ten rupees."
+        }
+      }
+    },
+    {
+      "id": "num_007",
+      "category": "Numbers",
+      "kannada": "ಇಪ್ಪತ್ತು",
+      "pronunciation": "Ippatthu",
+      "english": "Twenty (20)",
+      "translations": {
+        "Telugu": "ఇరవై (Iravai)",
+        "Tamil": "இருபது (Irubathu)",
+        "Hindi": "बीस (Bees)",
+        "Malayalam": "ഇരുപത് (Irupathu)",
+        "Marathi": "वीस (Vees)",
+        "Tulu": "ಇರುವೊ (Iruvo)",
+        "English": "Twenty (20)"
+      },
+      "example": {
+        "kannada": "ಇಪ್ಪತ್ತು ಕಿಲೋಮೀಟರ್.",
+        "pronunciation": "Ippatthu kilōmīṭar.",
+        "english": "Twenty kilometers.",
+        "translations": {
+          "Telugu": "ఇరవై కిలోమీటర్లు.",
+          "Tamil": "இருபது கிலோமீட்டர்.",
+          "Hindi": "बीस किलोमीटर।",
+          "Malayalam": "ഇരുപത് കിലോമീറ്റർ.",
+          "Marathi": "वीस किलोमीटर.",
+          "Tulu": "ಇರುವೊ ಕಿಲೋಮೀಟರ್.",
+          "English": "Twenty kilometers."
+        }
+      }
+    },
+    {
+      "id": "num_008",
+      "category": "Numbers",
+      "kannada": "ನೂರು",
+      "pronunciation": "Nūru",
+      "english": "Hundred (100)",
+      "translations": {
+        "Telugu": "వంద (Vanda / Nūru)",
+        "Tamil": "நூறு (Nūru)",
+        "Hindi": "सौ (Sau)",
+        "Malayalam": "നൂറ് (Nūṟu)",
+        "Marathi": "शंभर (Shambhar)",
+        "Tulu": "ನೂದು (Nūdu)",
+        "English": "Hundred (100)"
+      },
+      "example": {
+        "kannada": "ನೂರು ರೂಪಾಯಿ ಕೊಡಿ.",
+        "pronunciation": "Nūru rūpāyi koḍi.",
+        "english": "Give hundred rupees.",
+        "translations": {
+          "Telugu": "వంద రూపాయలు ఇవ్వండి.",
+          "Tamil": "நூறு ரூபாய் கொடுங்கள்.",
+          "Hindi": "सौ रुपये दीजिए।",
+          "Malayalam": "നൂറ് രൂപ തരൂ.",
+          "Marathi": "शंभर रुपये द्या.",
+          "Tulu": "ನೂದು ರೂಪಾಯಿ ಕೊರ್ಲೆ.",
+          "English": "Give hundred rupees."
+        }
+      }
+    }
+  ],
+  "Food": [
+    {
+      "id": "food_001",
+      "category": "Food",
+      "kannada": "ಊಟ",
+      "pronunciation": "Ūṭa",
+      "english": "Meal / Lunch / Dinner",
+      "translations": {
+        "Telugu": "భోజనం (Bhōjanam)",
+        "Tamil": "சாப்பாடு (Sāppāḍu)",
+        "Hindi": "खाना / भोजन (Khānā / Bhōjan)",
+        "Malayalam": "ഭക്ഷണം / ഊണ് (Bhakshaṇam / Ūṇu)",
+        "Marathi": "जेवण (Jēvaṇ)",
+        "Tulu": "ವನಸ್ (Vanas)",
+        "English": "Meal / Lunch / Dinner"
+      },
+      "example": {
+        "kannada": "ಊಟ ಆಯ್ತಾ?",
+        "pronunciation": "Ūṭa āythā?",
+        "english": "Had your meal? (Karnataka's friendliest greeting!)",
+        "translations": {
+          "Telugu": "భోజనం అయిందా?",
+          "Tamil": "சாப்பாடு ஆச்சா?",
+          "Hindi": "खाना हो गया क्या?",
+          "Malayalam": "ഭക്ഷണം കഴിച്ചോ?",
+          "Marathi": "जेवण झालं का?",
+          "Tulu": "ವನಸ್ ಆಂಡಾ?",
+          "English": "Had your meal?"
+        }
+      },
+      "culturalNote": "\"Oota aaytha?\" is the ultimate sign of hospitality and care in Karnataka."
+    },
+    {
+      "id": "food_002",
+      "category": "Food",
+      "kannada": "ತಿಂಡಿ",
+      "pronunciation": "Thiṇḍi",
+      "english": "Breakfast / Snacks",
+      "translations": {
+        "Telugu": "అల్పాహారం / టిఫిన్ (Tiffin)",
+        "Tamil": "சிற்றுண்டி (Siṟṟuṇḍi / Tiffin)",
+        "Hindi": "नाश्ता (Nāshtā)",
+        "Malayalam": "പ്രഭാതഭക്ഷണം (Tiffin / Thindi)",
+        "Marathi": "नाश्ता (Nāshtā)",
+        "Tulu": "ತಿಂಡಿ (Thiṇḍi)",
+        "English": "Breakfast / Snacks"
+      },
+      "example": {
+        "kannada": "ಬೆಳಗಿನ ತಿಂಡಿ ಏನು?",
+        "pronunciation": "Beḷagina thiṇḍi ēnu?",
+        "english": "What is for breakfast?",
+        "translations": {
+          "Telugu": "ఉదయం టిఫిన్ ఏంటి?",
+          "Tamil": "காலை சிற்றுண்டி என்ன?",
+          "Hindi": "सुबह का नाश्ता क्या है?",
+          "Malayalam": "രാവിലത്തെ ഭക്ഷണം എന്താണ്?",
+          "Marathi": "सकाळचा नाश्ता काय आहे?",
+          "Tulu": "ಕಾಂಡೆದ ತಿಂಡಿ ದಾದ?",
+          "English": "What is for breakfast?"
+        }
+      }
+    },
+    {
+      "id": "food_003",
+      "category": "Food",
+      "kannada": "ನೀರು",
+      "pronunciation": "Nīru",
+      "english": "Water",
+      "translations": {
+        "Telugu": "నీళ్ళు (Nīḷḷu)",
+        "Tamil": "தண்ணீர் (Thaṇṇīr)",
+        "Hindi": "पानी (Pānī)",
+        "Malayalam": "വെള്ളം (Veḷḷam)",
+        "Marathi": "पाणी (Pāṇī)",
+        "Tulu": "ನೀರ್ (Nīr)",
+        "English": "Water"
+      },
+      "example": {
+        "kannada": "ಕುಡಿಯಲು ನೀರು ಕೊಡಿ.",
+        "pronunciation": "Kuḍiyalu nīru koḍi.",
+        "english": "Please give water to drink.",
+        "translations": {
+          "Telugu": "తాగడానికి నీళ్ళు ఇవ్వండి.",
+          "Tamil": "குடிக்க தண்ணீர் கொடுங்கள்.",
+          "Hindi": "पीने के लिए पानी दीजिए।",
+          "Malayalam": "കുടിക്കാൻ വെള്ളം തരൂ.",
+          "Marathi": "पिण्यासाठी पाणी द्या.",
+          "Tulu": "ಪರಿಯೆರೆ ನೀರ್ ಕೊರ್ಲೆ.",
+          "English": "Please give water to drink."
+        }
+      }
+    },
+    {
+      "id": "food_004",
+      "category": "Food",
+      "kannada": "ಕಾಫಿ",
+      "pronunciation": "Coffee",
+      "english": "Coffee (Filter Coffee)",
+      "translations": {
+        "Telugu": "కాఫీ (Coffee)",
+        "Tamil": "காபி (Coffee)",
+        "Hindi": "कॉफ़ी (Coffee)",
+        "Malayalam": "കാപ്പി (Kaappi)",
+        "Marathi": "कॉफी (Coffee)",
+        "Tulu": "ಕಾಫಿ (Coffee)",
+        "English": "Coffee"
+      },
+      "example": {
+        "kannada": "ಬಿಸಿ ಫಿಲ್ಟರ್ ಕಾಫಿ ಕೊಡಿ.",
+        "pronunciation": "Bisi filter coffee koḍi.",
+        "english": "Give a hot filter coffee.",
+        "translations": {
+          "Telugu": "వేడి ఫిల్టర్ కాఫీ ఇవ్వండి.",
+          "Tamil": "சூடான ஃபில்டர் காபி கொடுங்கள்.",
+          "Hindi": "गरम फ़िल्टर कॉफ़ी दीजिए।",
+          "Malayalam": "ചൂടുള്ള ഫിൽട്ടർ കാപ്പി തരൂ.",
+          "Marathi": "गरम फिल्टर कॉफी द्या.",
+          "Tulu": "ಬೆಚ್ಚದ ಫಿಲ್ಟರ್ ಕಾಫಿ ಕೊರ್ಲೆ.",
+          "English": "Give a hot filter coffee."
+        }
+      },
+      "culturalNote": "Karnataka filter coffee from Chikmagalur is legendary worldwide!"
+    },
+    {
+      "id": "food_005",
+      "category": "Food",
+      "kannada": "ರುಚಿ",
+      "pronunciation": "Ruchi",
+      "english": "Tasty / Delicious / Flavor",
+      "translations": {
+        "Telugu": "రుచి (Ruchi / Ruchigā)",
+        "Tamil": "சுவை (Suvai / Rusiyāga)",
+        "Hindi": "स्वादिष्ट (Swādisht)",
+        "Malayalam": "രുചി (Ruchi)",
+        "Marathi": "चवदार (Chavadār)",
+        "Tulu": "ರುಚಿ (Ruchi)",
+        "English": "Tasty / Delicious"
+      },
+      "example": {
+        "kannada": "ದೋಸೆ ತುಂಬಾ ರುಚಿಯಾಗಿದೆ.",
+        "pronunciation": "Dōse thumbā ruchiyāgide.",
+        "english": "Dosa is very tasty.",
+        "translations": {
+          "Telugu": "దోశ చాలా రుచిగా ఉంది.",
+          "Tamil": "தோசை ரொம்ப சுவையாக இருக்கிறது.",
+          "Hindi": "डोसा बहुत स्वादिष्ट है।",
+          "Malayalam": "ദോശ വളരെ രുചികരമാണ്.",
+          "Marathi": "डोसा खूप चवदार आहे.",
+          "Tulu": "ದೋಸೆ ಬಾರೀ ರುಚಿ ಉಂಡು.",
+          "English": "Dosa is very tasty."
+        }
+      }
+    },
+    {
+      "id": "food_006",
+      "category": "Food",
+      "kannada": "ಬಿಸಿ",
+      "pronunciation": "Bisi",
+      "english": "Hot (Temperature)",
+      "translations": {
+        "Telugu": "వేడి (Vēḍi)",
+        "Tamil": "சூடு (Sūḍu)",
+        "Hindi": "गरम (Garam)",
+        "Malayalam": "ചൂട് (Chūṭu)",
+        "Marathi": "गरम (Garam)",
+        "Tulu": "ಬೆಚ್ಚ (Beccha)",
+        "English": "Hot"
+      },
+      "example": {
+        "kannada": "ಬಿಸಿ ಬಿಸಿ ಸಾಂಬಾರ್.",
+        "pronunciation": "Bisi bisi sāmbār.",
+        "english": "Piping hot sambar.",
+        "translations": {
+          "Telugu": "వేడి వేడి సాంబారు.",
+          "Tamil": "சூடான சாம்பார்.",
+          "Hindi": "गरमा-गरम सांभर।",
+          "Malayalam": "ചൂടുള്ള സാമ്പാർ.",
+          "Marathi": "गरमागरम सांबार.",
+          "Tulu": "ಬೆಚ್ಚ ಬೆಚ್ಚ ಸಾಂಬಾರ್.",
+          "English": "Piping hot sambar."
+        }
+      }
+    }
+  ],
+  "Travel": [
+    {
+      "id": "travel_001",
+      "category": "Travel",
+      "kannada": "ಎಲ್ಲಿ?",
+      "pronunciation": "Elli?",
+      "english": "Where?",
+      "translations": {
+        "Telugu": "ఎక్కడ? (Ekkaḍa?)",
+        "Tamil": "எங்கே? (Engē?)",
+        "Hindi": "कहाँ? (Kahān?)",
+        "Malayalam": "എവിടെ? (Eviṭe?)",
+        "Marathi": "कुठे? (Kuthē?)",
+        "Tulu": "ಓಡೆ? (Ōḍe?)",
+        "English": "Where?"
+      },
+      "example": {
+        "kannada": "ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?",
+        "pronunciation": "Bus nildāṇa ellide?",
+        "english": "Where is the bus stand?",
+        "translations": {
+          "Telugu": "బస్ స్టాండ్ ఎక్కడ ఉంది?",
+          "Tamil": "பேருந்து நிலையம் எங்கே உள்ளது?",
+          "Hindi": "बस स्टैंड कहाँ है?",
+          "Malayalam": "ബസ് സ്റ്റാൻഡ് എവിടെയാണ്?",
+          "Marathi": "बस स्टँड कुठे आहे?",
+          "Tulu": "ಬಸ್ ನಿಲ್ದಾಣ ಓಡೆ ಉಂಡು?",
+          "English": "Where is the bus stand?"
+        }
+      }
+    },
+    {
+      "id": "travel_002",
+      "category": "Travel",
+      "kannada": "ಹೋಗಿ / ಹೋಗೋಣ",
+      "pronunciation": "Hōgi / Hōgōṇa",
+      "english": "Go (Polite) / Let's go",
+      "translations": {
+        "Telugu": "వెళ్ళండి / వెళ్దాం (Veḷḷaṇḍi / Veḷdām)",
+        "Tamil": "போங்கள் / போவோம் (Pōṅgal / Pōvōm)",
+        "Hindi": "जाइए / चलो (Jāiye / Chalo)",
+        "Malayalam": "പോകൂ / പോകാം (Pōkū / Pōkām)",
+        "Marathi": "जा / चला (Jā / Chalā)",
+        "Tulu": "ಪೋಲೆ / ಪೋಯಿ (Pōle / Pōyi)",
+        "English": "Go / Let's go"
+      },
+      "example": {
+        "kannada": "ಮುಂದೆ ಹೋಗಿ.",
+        "pronunciation": "Munde hōgi.",
+        "english": "Go straight ahead.",
+        "translations": {
+          "Telugu": "ముందుకు వెళ్ళండి.",
+          "Tamil": "முன்னால் போங்கள்.",
+          "Hindi": "आगे जाइए।",
+          "Malayalam": "മുന്നോട്ട് പോകുക.",
+          "Marathi": "पुढे जा.",
+          "Tulu": "ದುಂಬು ಪೋಲೆ.",
+          "English": "Go straight ahead."
+        }
+      }
+    },
+    {
+      "id": "travel_003",
+      "category": "Travel",
+      "kannada": "ಬನ್ನಿ",
+      "pronunciation": "Banni",
+      "english": "Come (Respectful)",
+      "translations": {
+        "Telugu": "రండి (Raṇḍi)",
+        "Tamil": "வாருங்கள் (Vāruṅgal)",
+        "Hindi": "आइए (Āiye)",
+        "Malayalam": "വരൂ (Varū)",
+        "Marathi": "या (Yā)",
+        "Tulu": "ಬಲೆ (Bale)",
+        "English": "Come"
+      },
+      "example": {
+        "kannada": "ಒಳಗೆ ಬನ್ನಿ.",
+        "pronunciation": "Oḷage banni.",
+        "english": "Come inside.",
+        "translations": {
+          "Telugu": "లోపలికి రండి.",
+          "Tamil": "உள்ளே வாருங்கள்.",
+          "Hindi": "अंदर आइए।",
+          "Malayalam": "അകത്തേക്ക് വരൂ.",
+          "Marathi": "आत या.",
+          "Tulu": "ಉಲಾಯಿ ಬಲೆ.",
+          "English": "Come inside."
+        }
+      }
+    },
+    {
+      "id": "travel_004",
+      "category": "Travel",
+      "kannada": "ಹತ್ತಿರ",
+      "pronunciation": "Hatthira",
+      "english": "Near / Close by",
+      "translations": {
+        "Telugu": "దగ్గర (Daggara)",
+        "Tamil": "பக்கத்தில் (Pakkathil)",
+        "Hindi": "पास / नज़दीक (Pās / Nazdeek)",
+        "Malayalam": "അടുത്ത് (Aṭuthu)",
+        "Marathi": "जवळ (Jawaḷ)",
+        "Tulu": "ಮುಟ್ಟ (Muṭṭa)",
+        "English": "Near / Close by"
+      },
+      "example": {
+        "kannada": "ಮೆಟ್ರೋ ಸ್ಟೇಷನ್ ಹತ್ತಿರ ಇದೆಯಾ?",
+        "pronunciation": "Metro station hatthira ideyā?",
+        "english": "Is the metro station near?",
+        "translations": {
+          "Telugu": "మెట్రో స్టేషన్ దగ్గరగా ఉందా?",
+          "Tamil": "மெட்ரோ நிலையம் அருகில் உள்ளதா?",
+          "Hindi": "क्या मेट्रो स्टेशन पास में है?",
+          "Malayalam": "മെട്രോ സ്റ്റേഷൻ അടുത്താണോ?",
+          "Marathi": "मेट्रो स्टेशन जवळ आहे का?",
+          "Tulu": "ಮೆಟ್ರೋ ಸ್ಟೇಷನ್ ಮುಟ್ಟ ಉಂಡಾ?",
+          "English": "Is the metro station near?"
+        }
+      }
+    },
+    {
+      "id": "travel_005",
+      "category": "Travel",
+      "kannada": "ದೂರ",
+      "pronunciation": "Dūra",
+      "english": "Far / Distant",
+      "translations": {
+        "Telugu": "దూరం (Dūram)",
+        "Tamil": "தூரம் (Thūram)",
+        "Hindi": "दूर (Dūr)",
+        "Malayalam": "ദൂരം (Dūram)",
+        "Marathi": "लांब / दूर (Lāmb / Dūr)",
+        "Tulu": "ದೂರ (Dūra)",
+        "English": "Far / Distant"
+      },
+      "example": {
+        "kannada": "ವಿಮಾನ ನಿಲ್ದಾಣ ತುಂಬಾ ದೂರ.",
+        "pronunciation": "Vimāna nildāṇa thumbā dūra.",
+        "english": "The airport is very far.",
+        "translations": {
+          "Telugu": "విమానాశ్రయం చాలా దూరం.",
+          "Tamil": "விமான நிலையம் மிக தொலைவில் உள்ளது.",
+          "Hindi": "हवाई अड्डा बहुत दूर है।",
+          "Malayalam": "വിമാനത്താവളം വളരെ ദൂരെയാണ്.",
+          "Marathi": "विमानतळ खूप लांब आहे.",
+          "Tulu": "ವಿಮಾನ ನಿಲ್ದಾಣ ಬಾರೀ ದೂರ.",
+          "English": "The airport is very far."
+        }
+      }
+    },
+    {
+      "id": "travel_006",
+      "category": "Travel",
+      "kannada": "ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ",
+      "pronunciation": "Illi nillisi",
+      "english": "Stop here (Auto / Cab phrase)",
+      "translations": {
+        "Telugu": "ఇక్కడ ఆపండి (Ikkaḍa āpaṇḍi)",
+        "Tamil": "இங்கே நிறுத்துங்கள் (Ingē niṟutthungal)",
+        "Hindi": "यहाँ रोकिए (Yahān rokiye)",
+        "Malayalam": "ഇവിടെ നിർത്തൂ (Ivide nirthū)",
+        "Marathi": "इथे थांबवा (Ithe thāmbvā)",
+        "Tulu": "ಮುಲ್ಪ ಉಂತಾಲೆ (Mulpa unthāle)",
+        "English": "Stop here"
+      },
+      "example": {
+        "kannada": "ಅಣ್ಣ, ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ.",
+        "pronunciation": "Aṇṇa, illi nillisi.",
+        "english": "Brother, stop right here.",
+        "translations": {
+          "Telugu": "అన్నయ్యా, ఇక్కడ ఆపండి.",
+          "Tamil": "அண்ணா, இங்கே நிறுத்துங்கள்.",
+          "Hindi": "भैया, यहाँ रोकिए।",
+          "Malayalam": "ചേട്ടാ, ഇവിടെ നിർത്തൂ.",
+          "Marathi": "दादा, इथे थांबवा.",
+          "Tulu": "ಅಣ್ಣಾ, ಮುಲ್ಪ ಉಂತಾಲೆ.",
+          "English": "Brother, stop right here."
+        }
+      },
+      "culturalNote": "Addressing auto drivers warmly as \"Anna\" (brother) earns respect and smiles in Karnataka."
+    }
+  ],
+  "Shopping": [
+    {
+      "id": "shop_001",
+      "category": "Shopping",
+      "kannada": "ಎಷ್ಟು?",
+      "pronunciation": "Eshṭu?",
+      "english": "How much? / How many?",
+      "translations": {
+        "Telugu": "ఎంత? (Entha?)",
+        "Tamil": "எவ்வளவு? (Evvaḷavu?)",
+        "Hindi": "कितना? (Kitnā?)",
+        "Malayalam": "എത്ര? (Ethra?)",
+        "Marathi": "किती? (Kitī?)",
+        "Tulu": "ಏತ್? (Ēth?)",
+        "English": "How much?"
+      },
+      "example": {
+        "kannada": "ಇದಕ್ಕೆ ಎಷ್ಟು?",
+        "pronunciation": "Idakke eshṭu?",
+        "english": "How much for this?",
+        "translations": {
+          "Telugu": "దీనికి ఎంత?",
+          "Tamil": "இதற்கு எவ்வளவு?",
+          "Hindi": "इसके लिए कितना?",
+          "Malayalam": "ഇതിന് എത്രയാണ്?",
+          "Marathi": "याचे किती?",
+          "Tulu": "ಉಂದೆಕ್ ಏತ್?",
+          "English": "How much for this?"
+        }
+      },
+      "culturalNote": "Crucial shopping phrase across markets and street vendors in Karnataka."
+    },
+    {
+      "id": "shop_002",
+      "category": "Shopping",
+      "kannada": "ಬೆಲೆ",
+      "pronunciation": "Bele",
+      "english": "Price / Cost",
+      "translations": {
+        "Telugu": "ధర (Dhara / Vela)",
+        "Tamil": "விலை (Vilai)",
+        "Hindi": "दाम / कीमत (Dām / Qeemat)",
+        "Malayalam": "വില (Vila)",
+        "Marathi": "किंमत (Kimmat)",
+        "Tulu": "ಬಿಲೆ (Bile)",
+        "English": "Price / Cost"
+      },
+      "example": {
+        "kannada": "ಇದರ ಬೆಲೆ ಹೆಚ್ಚು.",
+        "pronunciation": "Idara bele hecchu.",
+        "english": "The price of this is high.",
+        "translations": {
+          "Telugu": "దీని ధర ఎక్కువ.",
+          "Tamil": "இதன் விலை அதிகம்.",
+          "Hindi": "इसकी कीमत ज्यादा है।",
+          "Malayalam": "ഇതിൻ്റെ വില കൂടുതലാണ്.",
+          "Marathi": "याची किंमत जास्त आहे.",
+          "Tulu": "ಉಂದೆತ್ತ ಬಿಲೆ ಜಾಸ್ತಿ.",
+          "English": "The price of this is high."
+        }
+      }
+    },
+    {
+      "id": "shop_003",
+      "category": "Shopping",
+      "kannada": "ಕಡಿಮೆ ಮಾಡಿ",
+      "pronunciation": "Kaḍime māḍi",
+      "english": "Please reduce the price (Bargaining)",
+      "translations": {
+        "Telugu": "కొంచెం తగ్గించండి (Konchem thagginchaṇḍi)",
+        "Tamil": "கொஞ்சம் குறைத்து கொடுங்கள் (Koraithu koḍungal)",
+        "Hindi": "थोड़ा कम कीजिए (Thodā kam kījiye)",
+        "Malayalam": "കുറച്ച് കുറയ്ക്കൂ (Kurachu kuraikkū)",
+        "Marathi": "कमी करा (Kamī karā)",
+        "Tulu": "ಒಂತೆ ಕಮ್ಮಿ ಮಲ್ಪುಲೆ (Onthe kammi malpule)",
+        "English": "Please reduce the price"
+      },
+      "example": {
+        "kannada": "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ ಅಣ್ಣ.",
+        "pronunciation": "Swalpa kaḍime māḍi aṇṇa.",
+        "english": "Reduce a little bit, brother.",
+        "translations": {
+          "Telugu": "కొంచెం తగ్గించండి అన్నయ్యా.",
+          "Tamil": "கொஞ்சம் குறைத்து கொடுங்கள் அண்ணா.",
+          "Hindi": "थोड़ा कम कीजिए भैया।",
+          "Malayalam": "കുറച്ച് കുറയ്ക്കൂ ചേട്ടാ.",
+          "Marathi": "थोडं कमी करा दादा.",
+          "Tulu": "ಒಂತೆ ಕಮ್ಮಿ ಮಲ್ಪುಲೆ ಅಣ್ಣಾ.",
+          "English": "Reduce a little bit, brother."
+        }
+      }
+    },
+    {
+      "id": "shop_004",
+      "category": "Shopping",
+      "kannada": "ಇದು",
+      "pronunciation": "Idu",
+      "english": "This",
+      "translations": {
+        "Telugu": "ఇది (Idi)",
+        "Tamil": "இது (Ithu)",
+        "Hindi": "यह (Yeh)",
+        "Malayalam": "ഇത് (Ithu)",
+        "Marathi": "हे (Hē)",
+        "Tulu": "ಉಂದು (Undu)",
+        "English": "This"
+      },
+      "example": {
+        "kannada": "ನನಗೆ ಇದು ಬೇಕು.",
+        "pronunciation": "Nanage idu bēku.",
+        "english": "I want this one.",
+        "translations": {
+          "Telugu": "నాకు ఇది కావాలి.",
+          "Tamil": "எனக்கு இது வேண்டும்.",
+          "Hindi": "मुझे यह चाहिए।",
+          "Malayalam": "എനിക്ക് ഇത് വേണം.",
+          "Marathi": "मला हे हवे आहे.",
+          "Tulu": "ಎಂಕ್ ಉಂದು ಬೋಡು.",
+          "English": "I want this one."
+        }
+      }
+    },
+    {
+      "id": "shop_005",
+      "category": "Shopping",
+      "kannada": "ಅದು",
+      "pronunciation": "Adu",
+      "english": "That",
+      "translations": {
+        "Telugu": "అది (Adi)",
+        "Tamil": "அது (Athu)",
+        "Hindi": "वह (Voh)",
+        "Malayalam": "അത് (Athu)",
+        "Marathi": "ते (Tē)",
+        "Tulu": "ಔಂದು (Oundu)",
+        "English": "That"
+      },
+      "example": {
+        "kannada": "ಅದು ಎಷ್ಟು?",
+        "pronunciation": "Adu eshṭu?",
+        "english": "How much is that?",
+        "translations": {
+          "Telugu": "అది ఎంత?",
+          "Tamil": "அது எவ்வளவு?",
+          "Hindi": "वह कितना है?",
+          "Malayalam": "അത് എത്രയാണ്?",
+          "Marathi": "ते किती आहे?",
+          "Tulu": "ಔಂದು ಏತ್?",
+          "English": "How much is that?"
+        }
+      }
+    },
+    {
+      "id": "shop_006",
+      "category": "Shopping",
+      "kannada": "ಚಿಲ್ಲರೆ ಇದೆಯಾ?",
+      "pronunciation": "Chillare ideyā?",
+      "english": "Do you have change (coins/currency)?",
+      "translations": {
+        "Telugu": "చిల్లర ఉందా? (Chillara undā?)",
+        "Tamil": "சில்லறை இருக்கிறதா? (Sillarai irukkiradhā?)",
+        "Hindi": "छुट्टे हैं क्या? (Chhutte hain kyā?)",
+        "Malayalam": "ചില്ലറയുണ്ടോ? (Chillarayuṇḍō?)",
+        "Marathi": "सुट्टे आहेत का? (Sutte āhēt kā?)",
+        "Tulu": "ಚಿಲ್ಲರೆ ಉಂಡಾ? (Chillare uṇḍā?)",
+        "English": "Do you have change?"
+      },
+      "example": {
+        "kannada": "ನೂರು ರೂಪಾಯಿಗೆ ಚಿಲ್ಲರೆ ಇದೆಯಾ?",
+        "pronunciation": "Nūru rūpāyige chillare ideyā?",
+        "english": "Do you have change for 100 rupees?",
+        "translations": {
+          "Telugu": "వంద రూపాయలకి చిల్లర ఉందా?",
+          "Tamil": "நூறு ரூபாய்க்கு சில்லறை இருக்கிறதா?",
+          "Hindi": "सौ रुपये के लिए छुट्टे हैं क्या?",
+          "Malayalam": "നൂറ് രൂപയ്ക്ക് ചില്ലറയുണ്ടോ?",
+          "Marathi": "शंभर रुपयांचे सुट्टे आहेत का?",
+          "Tulu": "ನೂದು ರೂಪಾಯಿಗ್ ಚಿಲ್ಲರೆ ಉಂಡಾ?",
+          "English": "Do you have change for 100 rupees?"
+        }
+      }
+    }
+  ],
+  "Common Questions": [
+    {
+      "id": "quest_001",
+      "category": "Common Questions",
+      "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+      "pronunciation": "Nimma hesaru ēnu?",
+      "english": "What is your name? (Polite)",
+      "translations": {
+        "Telugu": "మీ పేరు ఏమిటి? (Mī pēru ēmiṭi?)",
+        "Tamil": "உங்கள் பெயர் என்ன? (Uṅgal peyar enna?)",
+        "Hindi": "आपका नाम क्या है? (Āpkā nām kyā hai?)",
+        "Malayalam": "നിങ്ങളുടെ പേരെന്താണ്? (Niṅṅaḷuṭe pērenthāṇu?)",
+        "Marathi": "तुमचे नाव काय आहे? (Tumchē nāv kāy āhē?)",
+        "Tulu": "ಈರೆನ ಪುದರ್ ದಾದ? (Īrena pudar dāda?)",
+        "English": "What is your name?"
+      },
+      "example": {
+        "kannada": "ನಮಸ್ಕಾರ, ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+        "pronunciation": "Namaskāra, nimma hesaru ēnu?",
+        "english": "Hello, what is your name?",
+        "translations": {
+          "Telugu": "నమస్కారం, మీ పేరు ఏమిటి?",
+          "Tamil": "வணக்கம், உங்கள் பெயர் என்ன?",
+          "Hindi": "नमस्ते, आपका नाम क्या है?",
+          "Malayalam": "നമസ്കാരം, നിങ്ങളുടെ പേരെന്താണ്?",
+          "Marathi": "नमस्कार, तुमचे नाव काय आहे?",
+          "Tulu": "ಸೊಲ್ಮೆಲು, ಈರೆನ ಪುದರ್ ದಾದ?",
+          "English": "Hello, what is your name?"
+        }
+      }
+    },
+    {
+      "id": "quest_002",
+      "category": "Common Questions",
+      "kannada": "ಸಮಯ ಎಷ್ಟು?",
+      "pronunciation": "Samaya eshṭu?",
+      "english": "What is the time?",
+      "translations": {
+        "Telugu": "సమయం ఎంత అయింది? (Samayam entha ayindi?)",
+        "Tamil": "மணி என்ன? (Maṇi enna?)",
+        "Hindi": "समय क्या हुआ? (Samay kyā huā?)",
+        "Malayalam": "സമയം എത്രയായി? (Samayam ethrayāyi?)",
+        "Marathi": "किती वाजले? (Kitī vājalē?)",
+        "Tulu": "ಸಮಯ ಏತ್ ಆಂಡ್? (Samaya ēth āṇḍ?)",
+        "English": "What time is it?"
+      },
+      "example": {
+        "kannada": "ಈಗ ಸಮಯ ಎಷ್ಟು?",
+        "pronunciation": "Īga samaya eshṭu?",
+        "english": "What time is it now?",
+        "translations": {
+          "Telugu": "ఇప్పుడు సమయం ఎంత?",
+          "Tamil": "இப்போது மணி என்ன?",
+          "Hindi": "अभी समय क्या हुआ?",
+          "Malayalam": "ഇപ്പോൾ സമയം എത്രയായി?",
+          "Marathi": "आता किती वाजले आहेत?",
+          "Tulu": "ಇತ್ತೆ ಸಮಯ ಏತ್?",
+          "English": "What time is it now?"
+        }
+      }
+    },
+    {
+      "id": "quest_003",
+      "category": "Common Questions",
+      "kannada": "ಯಾಕೆ?",
+      "pronunciation": "Yāke?",
+      "english": "Why?",
+      "translations": {
+        "Telugu": "ఎందుకు? (Enduku?)",
+        "Tamil": "ஏன்? (Ēn?)",
+        "Hindi": "क्यों? (Kyon?)",
+        "Malayalam": "എന്ത് കൊണ്ട്? (Enthu koṇḍu?)",
+        "Marathi": "का? (Kā?)",
+        "Tulu": "ದಾಯೆಗ್? (Dāyeg?)",
+        "English": "Why?"
+      },
+      "example": {
+        "kannada": "ಯಾಕೆ ತಡವಾಯಿತು?",
+        "pronunciation": "Yāke taḍavāyitu?",
+        "english": "Why is it late?",
+        "translations": {
+          "Telugu": "ఎందుకు ఆలస్యమైంది?",
+          "Tamil": "ஏன் தாமதமானது?",
+          "Hindi": "देर क्यों हुई?",
+          "Malayalam": "എന്തുകൊണ്ട് വൈകി?",
+          "Marathi": "उशीर का झाला?",
+          "Tulu": "ದಾಯೆಗ್ ಲೇಟ್ ಆಂಡ್?",
+          "English": "Why is it late?"
+        }
+      }
+    },
+    {
+      "id": "quest_004",
+      "category": "Common Questions",
+      "kannada": "ಯಾವಾಗ?",
+      "pronunciation": "Yāvāga?",
+      "english": "When?",
+      "translations": {
+        "Telugu": "ఎప్పుడు? (Eppuḍu?)",
+        "Tamil": "எப்போது? (Eppōthu?)",
+        "Hindi": "कब? (Kab?)",
+        "Malayalam": "എപ്പോൾ? (Eppōḷ?)",
+        "Marathi": "केव्हा? (Kēvhā?)",
+        "Tulu": "ಏಪ? (Ēpa?)",
+        "English": "When?"
+      },
+      "example": {
+        "kannada": "ಬಸ್ ಯಾವಾಗ ಬರುತ್ತದೆ?",
+        "pronunciation": "Bus yāvāga baruttade?",
+        "english": "When will the bus come?",
+        "translations": {
+          "Telugu": "బస్సు ఎప్పుడు వస్తుంది?",
+          "Tamil": "பேருந்து எப்போது வரும்?",
+          "Hindi": "बस कब आएगी?",
+          "Malayalam": "ബസ് എപ്പോഴാണ് വരുന്നത്?",
+          "Marathi": "बस केव्हा येईल?",
+          "Tulu": "ಬಸ್ ಏಪ ಬರ್ಪುಂಡು?",
+          "English": "When will the bus come?"
+        }
+      }
+    },
+    {
+      "id": "quest_005",
+      "category": "Common Questions",
+      "kannada": "ಹೇಗೆ?",
+      "pronunciation": "Hēge?",
+      "english": "How?",
+      "translations": {
+        "Telugu": "ఎలా? (Elā?)",
+        "Tamil": "எப்படி? (Eppaḍi?)",
+        "Hindi": "कैसे? (Kaisē?)",
+        "Malayalam": "എങ്ങനെ? (Eṅṅane?)",
+        "Marathi": "कसे? (Kasē?)",
+        "Tulu": "ಎಂಚ? (Encha?)",
+        "English": "How?"
+      },
+      "example": {
+        "kannada": "ಅಲ್ಲಿಗೆ ಹೇಗೆ ಹೋಗುವುದು?",
+        "pronunciation": "Allige hēge hōguvudu?",
+        "english": "How to go there?",
+        "translations": {
+          "Telugu": "అక్కడికి ఎలా వెళ్ళాలి?",
+          "Tamil": "அங்கே எப்படி செல்வது?",
+          "Hindi": "वहाँ कैसे जाएँ?",
+          "Malayalam": "അവിടെ എങ്ങനെ പോകണം?",
+          "Marathi": "तिथे कसे जायचे?",
+          "Tulu": "ಅಡೆಗ್ ಎಂಚ ಪೋಪಿನಿ?",
+          "English": "How to go there?"
+        }
+      }
+    },
+    {
+      "id": "quest_006",
+      "category": "Common Questions",
+      "kannada": "ಏನು ಸಮಾಚಾರ?",
+      "pronunciation": "Ēnu samāchāra?",
+      "english": "What's the news? / What's up?",
+      "translations": {
+        "Telugu": "ఏంటి విశేషాలు? (Ēnti vishēshālu?)",
+        "Tamil": "என்ன விஷயம்? (Enna vishayam?)",
+        "Hindi": "क्या हाल-चाल? (Kyā hāl-chāl?)",
+        "Malayalam": "എന്തൊക്കെയുണ്ട് വിശേഷങ്ങൾ? (Enthokkeyuṇḍu vishēshaṅṅaḷ?)",
+        "Marathi": "काय बातमी? (Kāy bātmi?)",
+        "Tulu": "ದಾದ ವಿಸೇಸ? (Dāda visēsa?)",
+        "English": "What's up / What's news?"
+      },
+      "example": {
+        "kannada": "ಹೇಗಿದ್ದೀರಾ, ಏನು ಸಮಾಚಾರ?",
+        "pronunciation": "Hēgiddīrā, ēnu samāchāra?",
+        "english": "How are you, what is the latest news?",
+        "translations": {
+          "Telugu": "ఎలా ఉన్నారు, ఏంటి విశేషాలు?",
+          "Tamil": "எப்படி இருக்கிறீர்கள், என்ன செய்தி?",
+          "Hindi": "कैसे हैं, क्या समाचार?",
+          "Malayalam": "സുഖമാണോ, എന്തൊക്കെയുണ്ട് വിശേഷങ്ങൾ?",
+          "Marathi": "कसे आहात, काय चाललंय?",
+          "Tulu": "ಎಂಚ ಉಲ್ಲರ್, ದಾದ ವಿಸೇಸ?",
+          "English": "How are you, what's up?"
+        }
+      }
+    }
+  ],
+  "Useful Sentences": [
+    {
+      "id": "sent_001",
+      "category": "Useful Sentences",
+      "kannada": "ನನಗೆ ಕನ್ನಡ ಸ್ವಲ್ಪ ಗೊತ್ತು",
+      "pronunciation": "Nanage Kannada swalpa gottu",
+      "english": "I know a little Kannada",
+      "translations": {
+        "Telugu": "నాకు కన్నడ కొంచెం తెలుసు (Naaku Kannada konchem telusu)",
+        "Tamil": "எனக்கு கன்னடம் கொஞ்சம் தெரியும் (Enakku Kannada konjam theriyum)",
+        "Hindi": "मुझे कन्नड़ थोड़ी आती है (Mujhe Kannada thodi aati hai)",
+        "Malayalam": "എനിക്ക് കന്നഡ കുറച്ച് അറിയാം (Enikku Kannada kurachu ariyam)",
+        "Marathi": "मला थोडी कन्नड येते (Mala thodi Kannada yete)",
+        "Tulu": "ಎಂಕ್ ಕನ್ನಡ ಒಂತೆ ಗೊತ್ತು (Enk Kannada onthe gottu)",
+        "English": "I know a little Kannada"
+      },
+      "example": {
+        "kannada": "ಕ್ಷಮಿಸಿ, ನನಗೆ ಕನ್ನಡ ಸ್ವಲ್ಪ ಗೊತ್ತು.",
+        "pronunciation": "Kshamisi, nanage Kannada swalpa gottu.",
+        "english": "Sorry, I only know a little Kannada.",
+        "translations": {
+          "Telugu": "క్షమించండి, నాకు కన్నడ కొంచెం తెలుసు.",
+          "Tamil": "மன்னிக்கவும், எனக்கு கன்னடம் கொஞ்சம் தெரியும்.",
+          "Hindi": "माफ़ कीजिए, मुझे कन्नड़ थोड़ी आती है।",
+          "Malayalam": "ക്ഷമിക്കണം, എനിക്ക് കന്നഡ കുറച്ച് അറിയാം.",
+          "Marathi": "माफ करा, मला थोडीच कन्नड येते.",
+          "Tulu": "ಮಾಪು ಮಲ್ಪುಲೆ, ಎಂಕ್ ಕನ್ನಡ ಒಂತೆ ಗೊತ್ತು.",
+          "English": "Sorry, I only know a little Kannada."
+        }
+      },
+      "culturalNote": "Locals in Karnataka are deeply touched and thrilled whenever newcomers make an effort to speak even a few words of Kannada!"
+    },
+    {
+      "id": "sent_002",
+      "category": "Useful Sentences",
+      "kannada": "ಕನ್ನಡ ಕಲಿಯುತ್ತಿದ್ದೇನೆ",
+      "pronunciation": "Kannada kaliyuttiddēne",
+      "english": "I am learning Kannada",
+      "translations": {
+        "Telugu": "నేను కన్నడ నేర్చుకుంటున్నాను (Nēnu Kannada nērchukuṇṭunnānu)",
+        "Tamil": "நான் கன்னடம் கற்றுக் கொண்டிருக்கிறேன் (Nān Kannada katṟu koṇḍirukkirēn)",
+        "Hindi": "मैं कन्नड़ सीख रहा/रही हूँ (Main Kannada seekh rahā hoon)",
+        "Malayalam": "ഞാൻ കന്നഡ പഠിക്കുകയാണ് (Njan Kannada padikkukayanu)",
+        "Marathi": "मी कन्नड शिकत आहे (Mee Kannada shikat aahe)",
+        "Tulu": "ಯಾನ್ ಕನ್ನಡ ಕಲ್ತೊಂದುಲ್ಲೆ (Yān Kannada kalthondulle)",
+        "English": "I am learning Kannada"
+      },
+      "example": {
+        "kannada": "ನಾನು ಕನ್ನಡ ಕಲಿಯುತ್ತಿದ್ದೇನೆ, ಸಹಾಯ ಮಾಡಿ.",
+        "pronunciation": "Nānu Kannada kaliyuttiddēne, sahāya māḍi.",
+        "english": "I am learning Kannada, please help me.",
+        "translations": {
+          "Telugu": "నేను కన్నడ నేర్చుకుంటున్నాను, సహాయం చేయండి.",
+          "Tamil": "நான் கன்னடம் கற்றுக் கொண்டிருக்கிறேன், உதவி செய்யுங்கள்.",
+          "Hindi": "मैं कन्नड़ सीख रहा हूँ, कृपया मदद कीजिए।",
+          "Malayalam": "ഞാൻ കന്നഡ പഠിക്കുകയാണ്, സഹായിക്കൂ.",
+          "Marathi": "मी कन्नड शिकत आहे, मदत करा.",
+          "Tulu": "ಯಾನ್ ಕನ್ನಡ ಕಲ್ತೊಂದುಲ್ಲೆ, ಸಹಾಯ ಮಲ್ಪುಲೆ.",
+          "English": "I am learning Kannada, please help me."
+        }
+      }
+    },
+    {
+      "id": "sent_003",
+      "category": "Useful Sentences",
+      "kannada": "ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ",
+      "pronunciation": "Nidhānavāgi māthanāḍi",
+      "english": "Please speak slowly",
+      "translations": {
+        "Telugu": "నెమ్మదిగా మాట్లాడండి (Nemmadigā māṭlāḍaṇḍi)",
+        "Tamil": "மெதுவாக பேசுங்கள் (Methuvāga pēsuṅgal)",
+        "Hindi": "धीरे बोलिए (Dheere boliye)",
+        "Malayalam": "പതുക്കെ സംസാരിക്കൂ (Pathukke samsārikkū)",
+        "Marathi": "हळू बोला (Haḷū bolā)",
+        "Tulu": "ಮೆಲ್ಲ ಪಾತೆರ್ಲೆ (Mella pātherle)",
+        "English": "Please speak slowly"
+      },
+      "example": {
+        "kannada": "ದಯವಿಟ್ಟು ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ.",
+        "pronunciation": "Dayavittu nidhānavāgi māthanāḍi.",
+        "english": "Please speak slowly.",
+        "translations": {
+          "Telugu": "దయచేసి నెమ్మదిగా మాట్లాడండి.",
+          "Tamil": "தயவுசெய்து மெதுவாக பேசுங்கள்.",
+          "Hindi": "कृपया धीरे-धीरे बोलिए।",
+          "Malayalam": "ദയവായി പതുക്കെ സംസാരിക്കൂ.",
+          "Marathi": "कृपया हळू बोला.",
+          "Tulu": "ದಯಮಲ್ತ್ ಮೆಲ್ಲ ಪಾತೆರ್ಲೆ.",
+          "English": "Please speak slowly."
+        }
+      }
+    },
+    {
+      "id": "sent_004",
+      "category": "Useful Sentences",
+      "kannada": "ಸಹಾಯ ಮಾಡಿ",
+      "pronunciation": "Sahāya māḍi",
+      "english": "Please help me",
+      "translations": {
+        "Telugu": "సహాయం చేయండి (Sahāyam chēyaṇḍi)",
+        "Tamil": "உதவி செய்யுங்கள் (Uthavi seyyuṅgal)",
+        "Hindi": "मदद कीजिए (Madad kījiye)",
+        "Malayalam": "സഹായിക്കൂ (Sahāyikkū)",
+        "Marathi": "मदत करा (Madat karā)",
+        "Tulu": "ಸಹಾಯ ಮಲ್ಪುಲೆ (Sahāya malpule)",
+        "English": "Please help me"
+      },
+      "example": {
+        "kannada": "ದಯವಿಟ್ಟು ನನಗೆ ಸ್ವಲ್ಪ ಸಹಾಯ ಮಾಡಿ.",
+        "pronunciation": "Dayavittu nanage swalpa sahāya māḍi.",
+        "english": "Please help me a little.",
+        "translations": {
+          "Telugu": "దయచేసి నాకు కొంచెం సహాయం చేయండి.",
+          "Tamil": "தயவுசெய்து எனக்கு கொஞ்சம் உதவி செய்யுங்கள்.",
+          "Hindi": "कृपया मेरी थोड़ी मदद कीजिए।",
+          "Malayalam": "ദയവായി എന്നെ കുറച്ച് സഹായിക്കൂ.",
+          "Marathi": "कृपया मला थोडी मदत करा.",
+          "Tulu": "ದಯಮಲ್ತ್ ಎಂಕ್ ಒಂತೆ ಸಹಾಯ ಮಲ್ಪುಲೆ.",
+          "English": "Please help me a little."
+        }
+      }
+    },
+    {
+      "id": "sent_005",
+      "category": "Useful Sentences",
+      "kannada": "ನನಗೆ ಅರ್ಥವಾಗಲಿಲ್ಲ",
+      "pronunciation": "Nanage arthavāgalilla",
+      "english": "I did not understand",
+      "translations": {
+        "Telugu": "నాకు అర్థం కాలేదు (Naaku artham kālēdu)",
+        "Tamil": "எனக்கு புரியவில்லை (Enakku puriyavillai)",
+        "Hindi": "मुझे समझ नहीं आया (Mujhe samajh nahīn āyā)",
+        "Malayalam": "എനിക്ക് മനസ്സിലായില്ല (Enikku manassilāyilla)",
+        "Marathi": "मला समजले नाही (Mala samajle nāhī)",
+        "Tulu": "ಎಂಕ್ ಅರ್ಥ ಆಯಿಜಿ (Enk artha āyiji)",
+        "English": "I did not understand"
+      },
+      "example": {
+        "kannada": "ಕ್ಷಮಿಸಿ, ನನಗೆ ಅರ್ಥವಾಗಲಿಲ್ಲ.",
+        "pronunciation": "Kshamisi, nanage arthavāgalilla.",
+        "english": "Sorry, I did not understand.",
+        "translations": {
+          "Telugu": "క్షమించండి, నాకు అర్థం కాలేదు.",
+          "Tamil": "மன்னிக்கவும், எனக்கு புரியவில்லை.",
+          "Hindi": "माफ़ कीजिए, मुझे समझ नहीं आया।",
+          "Malayalam": "ക്ഷമിക്കണം, എനിക്ക് മനസ്സിലായില്ല.",
+          "Marathi": "माफ करा, मला समजले नाही.",
+          "Tulu": "ಮಾಪು ಮಲ್ಪುಲೆ, ಎಂಕ್ ಅರ್ಥ ಆಯಿಜಿ.",
+          "English": "Sorry, I did not understand."
+        }
+      }
+    },
+    {
+      "id": "sent_006",
+      "category": "Useful Sentences",
+      "kannada": "ಬೆಂಗಳೂರು ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ",
+      "pronunciation": "Beṅgaḷūru thumbā chennāgide",
+      "english": "Bengaluru is very beautiful / nice",
+      "translations": {
+        "Telugu": "బెంగళూరు చాలా బాగుంది (Bengaluru chālā bāgundi)",
+        "Tamil": "பெங்களூரு மிகவும் அருமையாக உள்ளது (Bengaluru migavum arumaiyāga ulladhu)",
+        "Hindi": "बेंगलुरु बहुत अच्छा है (Bengaluru bahut acchā hai)",
+        "Malayalam": "ബംഗളൂരു വളരെ മനോഹരമാണ് (Bengaluru valare manoharamaanu)",
+        "Marathi": "बंगळुरू खूप छान आहे (Bangalore khoop chān āhe)",
+        "Tulu": "ಬೆಂಗಳೂರು ಬಾರೀ ಎಡ್ಡೆ ಉಂಡು (Bengaluru bārī edde uṇḍu)",
+        "English": "Bengaluru is very nice"
+      },
+      "example": {
+        "kannada": "ಕರ್ನಾಟಕ ಮತ್ತು ಬೆಂಗಳೂರು ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ.",
+        "pronunciation": "Karnāṭaka mattu Beṅgaḷūru thumbā chennāgide.",
+        "english": "Karnataka and Bengaluru are wonderful.",
+        "translations": {
+          "Telugu": "కర్ణాటక మరియు బెంగళూరు చాలా బాగున్నాయి.",
+          "Tamil": "கர்நாடகாவும் பெங்களூரும் மிகவும் அருமை.",
+          "Hindi": "कर्नाटक और बेंगलुरु बहुत सुंदर हैं।",
+          "Malayalam": "കർണാടകയും ബംഗളൂരുവും വളരെ മനോഹരമാണ്.",
+          "Marathi": "कर्नाटक आणि बंगळुरू खूप सुंदर आहेत.",
+          "Tulu": "ಕರ್ನಾಟಕ ಬೊಕ್ಕ ಬೆಂಗಳೂರು ಬಾರೀ ಎಡ್ಡೆ ಉಂಡು.",
+          "English": "Karnataka and Bengaluru are wonderful."
+        }
+      },
+      "culturalNote": "Use this to express your love for Karnataka and its vibrant capital city!"
+    }
+  ]
+}
