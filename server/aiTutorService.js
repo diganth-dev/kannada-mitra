@@ -113,7 +113,10 @@ export function validateTutorRequest(payload) {
 /**
  * Calls the official Google Gemini v1beta generateContent REST API
  */
-export async function callGeminiApi({
+/**
+ * Executes a single HTTP request to the Google Gemini generateContent REST API
+ */
+async function executeSingleGeminiCall({
   apiKey,
   model,
   systemInstruction,
@@ -284,6 +287,7 @@ export async function callGeminiApi({
 
     return {
       text: responseText,
+      model,
       finishReason: candidate.finishReason || 'STOP',
       usage: json.usageMetadata || null,
       origin: 'gemini',
@@ -329,6 +333,80 @@ export async function callGeminiApi({
       signal.removeEventListener('abort', onExternalAbort);
     }
   }
+}
+
+/**
+ * Calls the official Google Gemini v1beta generateContent REST API with
+ * resilient retry backoff and fallback model support for transient 503 high-demand errors.
+ */
+export async function callGeminiApi({
+  apiKey,
+  model,
+  systemInstruction,
+  history,
+  message,
+  signal = null,
+  timeoutMs = DEFAULT_BACKEND_TIMEOUT_MS,
+}) {
+  // Build ordered list of candidate models to try
+  const candidateModels = [model];
+  const knownFallbacks = ['gemini-3.8-flash', 'gemini-3.5-flash', 'gemini-3.1-flash-lite'];
+  for (const fb of knownFallbacks) {
+    if (!candidateModels.includes(fb)) {
+      candidateModels.push(fb);
+    }
+  }
+
+  let lastError = null;
+
+  for (let i = 0; i < candidateModels.length; i++) {
+    const currentModel = candidateModels[i];
+    const isPrimary = (i === 0);
+    const maxRetries = isPrimary ? 1 : 0; // Retry primary model once on 503
+
+    for (let attempt = 0; attempt <= maxRetries; attempt++) {
+      if (signal?.aborted) {
+        throw {
+          status: 499,
+          error: 'REQUEST_ABORTED',
+          message: 'The request was cancelled by the client.',
+          origin: 'client',
+          durationMs: 0,
+        };
+      }
+
+      try {
+        return await executeSingleGeminiCall({
+          apiKey,
+          model: currentModel,
+          systemInstruction,
+          history,
+          message,
+          signal,
+          timeoutMs,
+        });
+      } catch (err) {
+        lastError = err;
+
+        // Fatal client errors: do not retry or fall back
+        if (err.status === 400 || err.status === 401 || err.status === 403 || err.status === 499) {
+          throw err;
+        }
+
+        // Transient 503 / 429: wait with backoff and retry primary once
+        if ((err.status === 503 || err.status === 429) && attempt < maxRetries && !signal?.aborted) {
+          const delay = 1000 + Math.random() * 400;
+          await new Promise((resolve) => setTimeout(resolve, delay));
+          continue;
+        }
+
+        // On 503 / 404 / 429, proceed to try fallback model
+        break;
+      }
+    }
+  }
+
+  throw lastError;
 }
 
 /**
