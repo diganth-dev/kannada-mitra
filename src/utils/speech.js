@@ -371,6 +371,47 @@ export const mapSpeechRecognitionError = (errorCode) => {
 };
 
 /**
+ * Intelligently merges spoken chunks, deduplicating repetitive partial transcripts
+ * caused by Android Chrome Web Speech API bug (where successive interim/final results
+ * accumulate prefixes, e.g. "I" + "I want" + "I want to" -> "I want to").
+ */
+export function mergeSpeechChunks(existing = '', incoming = '') {
+  const a = (existing || '').trim();
+  const b = (incoming || '').trim();
+
+  if (!a) return b;
+  if (!b) return a;
+  if (a === b) return a;
+
+  const aLower = a.toLowerCase();
+  const bLower = b.toLowerCase();
+
+  // 1. If incoming starts with or extends existing, take incoming (supersedes partial prefix)
+  if (bLower.startsWith(aLower)) return b;
+
+  // 2. If existing already contains incoming at the end, keep existing
+  if (aLower.endsWith(bLower)) return a;
+
+  // 3. Check for word-level overlap at the boundary
+  const aWords = a.split(/\s+/);
+  const bWords = b.split(/\s+/);
+
+  const maxOverlap = Math.min(aWords.length, bWords.length);
+  for (let overlap = maxOverlap; overlap > 0; overlap--) {
+    const aSuffix = aWords.slice(aWords.length - overlap).join(' ').toLowerCase();
+    const bPrefix = bWords.slice(0, overlap).join(' ').toLowerCase();
+    if (aSuffix === bPrefix) {
+      // Overlap found! Append only the newly spoken portion
+      const newPart = bWords.slice(overlap).join(' ');
+      return newPart ? `${a} ${newPart}` : a;
+    }
+  }
+
+  // 4. Distinct phrases: concatenate cleanly
+  return `${a} ${b}`;
+}
+
+/**
  * Creates and wraps a Web Speech API SpeechRecognition instance with safe lifecycle management
  * and real-time streaming of interim and final speech recognition results.
  */
@@ -423,16 +464,16 @@ export const createSpeechRecognizer = ({
       let finalTranscript = '';
 
       if (event?.results) {
-        // Iterate through all results to build final and interim streams
+        // Iterate through all results to build final and interim streams with deduplication
         for (let i = 0; i < event.results.length; ++i) {
           const item = event.results[i];
           const piece = (item[0]?.transcript || '').trim();
           if (!piece) continue;
 
           if (item.isFinal) {
-            finalTranscript += (finalTranscript ? ' ' : '') + piece;
+            finalTranscript = mergeSpeechChunks(finalTranscript, piece);
           } else {
-            interimTranscript += (interimTranscript ? ' ' : '') + piece;
+            interimTranscript = mergeSpeechChunks(interimTranscript, piece);
           }
         }
       }
@@ -440,7 +481,7 @@ export const createSpeechRecognizer = ({
       finalTranscript = finalTranscript.trim();
       interimTranscript = interimTranscript.trim();
 
-      const combined = [finalTranscript, interimTranscript].filter(Boolean).join(' ').trim();
+      const combined = mergeSpeechChunks(finalTranscript, interimTranscript);
 
       const lastResult = event?.results ? event.results[event.results.length - 1] : null;
       const isLastFinal = Boolean(lastResult?.isFinal);

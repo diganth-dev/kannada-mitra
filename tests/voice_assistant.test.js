@@ -10,6 +10,7 @@ import {
   sanitizeTextForSpeech,
   speakResponse,
   stopSpeaking,
+  mergeSpeechChunks,
 } from '../src/utils/speech.js';
 import {
   getStoredVoiceAutoPlay,
@@ -744,3 +745,41 @@ test('14. Dynamic speech recognition language switching preserves accumulated wo
   const totalSpoken = [sessionAccumulatedFinal, speechInterim].filter(Boolean).join(' ').trim();
   assert.equal(totalSpoken, 'ನಮಸ್ಕಾರ how are you');
 });
+
+test('15. Android Chrome Web Speech API progressive stutter deduplication', () => {
+  // Simulate the exact bug reported:
+  // "I I want I want I want to I want to I want to I want to go I want to go home I want to go home in I want to go home in Hindi I want to go home in Hindi"
+  const androidProgressiveChunks = [
+    'I',
+    'I want',
+    'I want',
+    'I want to',
+    'I want to',
+    'I want to',
+    'I want to go',
+    'I want to go home',
+    'I want to go home in',
+    'I want to go home in Hindi',
+    'I want to go home in Hindi',
+  ];
+
+  let accumulated = '';
+  for (const chunk of androidProgressiveChunks) {
+    accumulated = mergeSpeechChunks(accumulated, chunk);
+  }
+
+  assert.equal(
+    accumulated,
+    'I want to go home in Hindi',
+    'Repeated progressive interim chunks on Android must collapse cleanly into the single spoken sentence'
+  );
+
+  // Test boundary word overlap:
+  const mergedOverlap = mergeSpeechChunks('I want to go', 'go home in Hindi');
+  assert.equal(mergedOverlap, 'I want to go home in Hindi');
+
+  // Test clean consecutive sentences:
+  const distinctSentences = mergeSpeechChunks('Hello teacher', 'I want to go home');
+  assert.equal(distinctSentences, 'Hello teacher I want to go home');
+});
+

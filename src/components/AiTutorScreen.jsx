@@ -33,6 +33,7 @@ import {
   SPEECH_RECOGNITION_LANGUAGES,
   getSpeechRecognitionLanguage,
   createSpeechRecognizer,
+  mergeSpeechChunks,
 } from '../utils/speech';
 import {
   getStoredChatHistory,
@@ -424,11 +425,11 @@ export function AiTutorScreen({
         speechFinalRef.current = finalTranscript || '';
         speechInterimRef.current = interimTranscript || '';
 
-        // Combine all finalized speech across this voice session
-        const totalFinal = [
+        // Combine all finalized speech across this voice session using deduplication
+        const totalFinal = mergeSpeechChunks(
           sessionAccumulatedFinalRef.current,
-          speechFinalRef.current,
-        ].filter(Boolean).join(' ').trim();
+          speechFinalRef.current
+        );
 
         const totalInterim = speechInterimRef.current.trim();
 
@@ -437,9 +438,9 @@ export function AiTutorScreen({
 
         // Progressive real-time live update into visible input:
         // [manually typed baseline] + [total finalized speech] + [interim speech]
-        const totalSpoken = [totalFinal, totalInterim].filter(Boolean).join(' ').trim();
+        const totalSpoken = mergeSpeechChunks(totalFinal, totalInterim);
         const fullMessage = manualTextRef.current
-          ? `${manualTextRef.current} ${totalSpoken}`.trim()
+          ? mergeSpeechChunks(manualTextRef.current, totalSpoken)
           : totalSpoken;
 
         if (fullMessage) {
@@ -470,10 +471,10 @@ export function AiTutorScreen({
         // Natural pause or browser continuous-stream refresh:
         // Commit whatever speech was finalized into session accumulation
         if (speechFinalRef.current) {
-          sessionAccumulatedFinalRef.current = [
+          sessionAccumulatedFinalRef.current = mergeSpeechChunks(
             sessionAccumulatedFinalRef.current,
-            speechFinalRef.current,
-          ].filter(Boolean).join(' ').trim();
+            speechFinalRef.current
+          );
           speechFinalRef.current = '';
         }
         speechInterimRef.current = '';
@@ -547,10 +548,10 @@ export function AiTutorScreen({
     if (isVoiceActiveRef.current || voiceState === 'listening' || voiceState === 'requesting') {
       // Commit any speech accumulated so far
       if (speechFinalRef.current) {
-        sessionAccumulatedFinalRef.current = [
+        sessionAccumulatedFinalRef.current = mergeSpeechChunks(
           sessionAccumulatedFinalRef.current,
-          speechFinalRef.current,
-        ].filter(Boolean).join(' ').trim();
+          speechFinalRef.current
+        );
         speechFinalRef.current = '';
       }
       speechInterimRef.current = '';
@@ -580,14 +581,13 @@ export function AiTutorScreen({
     }
 
     // Commit all recognized speech into baseline
-    const totalSpoken = [
+    const totalSpoken = mergeSpeechChunks(
       sessionAccumulatedFinalRef.current,
-      speechFinalRef.current,
-      speechInterimRef.current,
-    ].filter(Boolean).join(' ').trim();
+      mergeSpeechChunks(speechFinalRef.current, speechInterimRef.current)
+    );
 
     const fullMessage = manualTextRef.current
-      ? `${manualTextRef.current} ${totalSpoken}`.trim()
+      ? mergeSpeechChunks(manualTextRef.current, totalSpoken)
       : totalSpoken;
 
     if (fullMessage) {
@@ -672,14 +672,13 @@ export function AiTutorScreen({
     if (textToSend !== null) {
       query = String(textToSend).trim();
     } else {
-      const totalSpoken = [
+      const totalSpoken = mergeSpeechChunks(
         sessionAccumulatedFinalRef.current,
-        speechFinalRef.current,
-        speechInterimRef.current,
-      ].filter(Boolean).join(' ').trim();
+        mergeSpeechChunks(speechFinalRef.current, speechInterimRef.current)
+      );
 
       const fullMessage = manualTextRef.current
-        ? `${manualTextRef.current} ${totalSpoken}`.trim()
+        ? mergeSpeechChunks(manualTextRef.current, totalSpoken)
         : totalSpoken;
 
       query = (fullMessage || inputText).trim();
