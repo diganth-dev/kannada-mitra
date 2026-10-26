@@ -168,20 +168,20 @@ export async function callGeminiApi({
 
   const generationConfig = {
     temperature: 0.6,
-    maxOutputTokens: 512,
+    maxOutputTokens: 350,
     topP: 0.95,
   };
 
-  // Minimize reasoning latency for conversational tutoring:
-  // For Gemini 3 & 4 series: MINIMAL matches 'no thinking' and minimizes latency for chat.
-  // For Gemini 2.5 & 2.0 series: thinkingBudget: 0 disables thinking tokens completely.
-  if (model.includes('3') || model.includes('4')) {
-    generationConfig.thinkingConfig = {
-      thinkingLevel: 'MINIMAL',
-    };
-  } else if (model.includes('2.5') || model.includes('2.0')) {
+  // Turn off thinking completely where supported for near-instant conversational latency:
+  // - Gemini 2.5 series: thinkingBudget: 0 disables thinking tokens completely (~0.5s - 1.5s latency).
+  // - Gemini 3 & 4 series: thinkingLevel: 'low' requests minimum reasoning depth.
+  if (model.includes('2.5') || model.includes('2.0') || model.includes('1.5')) {
     generationConfig.thinkingConfig = {
       thinkingBudget: 0,
+    };
+  } else if (model.includes('3') || model.includes('4')) {
+    generationConfig.thinkingConfig = {
+      thinkingLevel: 'low',
     };
   }
 
