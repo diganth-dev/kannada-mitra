@@ -134,7 +134,8 @@ export async function checkTutorStatus(endpoint = AI_TUTOR_ENDPOINT) {
   }
 }
 
-export const DEFAULT_CLIENT_TIMEOUT_MS = 125000;
+// Maximum 15s client timeout prevents browser from hanging indefinitely when mobile network is slow.
+export const DEFAULT_CLIENT_TIMEOUT_MS = 15000;
 
 /**
  * Sends a user query or conversation turn to the server-side AI tutor

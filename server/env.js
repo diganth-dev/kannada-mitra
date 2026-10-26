@@ -50,7 +50,13 @@ export function getAiConfig() {
   loadServerEnv();
 
   const apiKey = process.env.AI_API_KEY || process.env.GEMINI_API_KEY || '';
-  const model = process.env.AI_MODEL || 'gemini-3.8-flash';
+  const rawModel = process.env.AI_MODEL || '';
+  // Default to Gemini 3.5 Flash-Lite for ultra-low latency conversational speed (~0.8s-1.5s).
+  // Automatically upgrade legacy retired 2.5 models if present in deployment environment.
+  const model =
+    !rawModel || rawModel === 'gemini-2.5-flash' || rawModel === 'gemini-2.5-flash-lite'
+      ? 'gemini-3.5-flash-lite'
+      : rawModel;
   const provider = process.env.AI_PROVIDER || 'gemini';
 
   const isPlaceholder =

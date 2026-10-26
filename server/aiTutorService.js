@@ -13,7 +13,9 @@ import { getAiConfig } from './env.js';
 const MAX_MESSAGE_LENGTH = 1000;
 const MAX_HISTORY_TURNS = 10;
 const MAX_HISTORY_TURN_LENGTH = 500;
-export const DEFAULT_BACKEND_TIMEOUT_MS = parseInt(process.env.AI_TIMEOUT_MS || '60000', 10);
+// Tight 9-second default backend timeout: stays safely within Netlify serverless functions'
+// execution limits (10s) and prevents long 1-minute hangs.
+export const DEFAULT_BACKEND_TIMEOUT_MS = parseInt(process.env.AI_TIMEOUT_MS || '9000', 10);
 
 /**
  * Constructs the pedagogical system instruction for the AI tutor
@@ -171,7 +173,7 @@ async function executeSingleGeminiCall({
 
   const generationConfig = {
     temperature: 0.6,
-    maxOutputTokens: 350,
+    maxOutputTokens: 600,
     topP: 0.95,
   };
 
@@ -337,7 +339,7 @@ async function executeSingleGeminiCall({
 
 /**
  * Calls the official Google Gemini v1beta generateContent REST API with
- * resilient retry backoff and fallback model support for transient 503 high-demand errors.
+ * resilient ultra-low-latency fallback models and tight execution deadlines.
  */
 export async function callGeminiApi({
   apiKey,
@@ -348,65 +350,77 @@ export async function callGeminiApi({
   signal = null,
   timeoutMs = DEFAULT_BACKEND_TIMEOUT_MS,
 }) {
-  // Build ordered list of candidate models to try
-  const candidateModels = [model];
-  const knownFallbacks = ['gemini-3.8-flash', 'gemini-3.5-flash', 'gemini-3.1-flash-lite'];
-  for (const fb of knownFallbacks) {
+  const normalizedModel =
+    !model || model === 'gemini-2.5-flash' || model === 'gemini-2.5-flash-lite'
+      ? 'gemini-3.5-flash-lite'
+      : model;
+
+  // Build ordered list of candidate models to try:
+  // 1. Configured/normalized primary model
+  // 2. High-speed fallbacks (gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-3.8-flash)
+  const candidateModels = [normalizedModel];
+  const fastFallbacks = ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite', 'gemini-3.8-flash'];
+  for (const fb of fastFallbacks) {
     if (!candidateModels.includes(fb)) {
       candidateModels.push(fb);
     }
   }
 
+  const overallDeadline = Date.now() + timeoutMs;
   let lastError = null;
 
   for (let i = 0; i < candidateModels.length; i++) {
     const currentModel = candidateModels[i];
-    const isPrimary = (i === 0);
-    const maxRetries = isPrimary ? 1 : 0; // Retry primary model once on 503
+    const remainingTime = overallDeadline - Date.now();
+    if (remainingTime <= 500) {
+      break; // Budget exhausted
+    }
 
-    for (let attempt = 0; attempt <= maxRetries; attempt++) {
-      if (signal?.aborted) {
-        throw {
-          status: 499,
-          error: 'REQUEST_ABORTED',
-          message: 'The request was cancelled by the client.',
-          origin: 'client',
-          durationMs: 0,
-        };
+    if (signal?.aborted) {
+      throw {
+        status: 499,
+        error: 'REQUEST_ABORTED',
+        message: 'The request was cancelled by the client.',
+        origin: 'client',
+        durationMs: 0,
+      };
+    }
+
+    // Allocate tight per-attempt timeout (max 6 seconds or remaining budget)
+    // so no single slow model can block the serverless execution window.
+    const attemptTimeout = Math.min(remainingTime, 6000);
+
+    try {
+      return await executeSingleGeminiCall({
+        apiKey,
+        model: currentModel,
+        systemInstruction,
+        history,
+        message,
+        signal,
+        timeoutMs: attemptTimeout,
+      });
+    } catch (err) {
+      lastError = err;
+
+      // Fatal client errors: do not retry or fall back
+      if (err.status === 400 || err.status === 401 || err.status === 403 || err.status === 499) {
+        throw err;
       }
 
-      try {
-        return await executeSingleGeminiCall({
-          apiKey,
-          model: currentModel,
-          systemInstruction,
-          history,
-          message,
-          signal,
-          timeoutMs,
-        });
-      } catch (err) {
-        lastError = err;
-
-        // Fatal client errors: do not retry or fall back
-        if (err.status === 400 || err.status === 401 || err.status === 403 || err.status === 499) {
-          throw err;
-        }
-
-        // Transient 503 / 429: wait with backoff and retry primary once
-        if ((err.status === 503 || err.status === 429) && attempt < maxRetries && !signal?.aborted) {
-          const delay = 1000 + Math.random() * 400;
-          await new Promise((resolve) => setTimeout(resolve, delay));
-          continue;
-        }
-
-        // On 503 / 404 / 429, proceed to try fallback model
-        break;
-      }
+      // On 503 (high demand), 504 (timeout), 404 (model retired), or 429 (rate limit):
+      // Immediately proceed to the next fallback model without sleeping to avoid Netlify timeouts.
+      continue;
     }
   }
 
-  throw lastError;
+  throw lastError || {
+    status: 504,
+    error: 'GATEWAY_TIMEOUT',
+    message: `Gemini API request timed out after ${Math.round(timeoutMs / 1000)} seconds. Please click Retry.`,
+    origin: 'backend',
+    durationMs: timeoutMs,
+  };
 }
 
 /**
