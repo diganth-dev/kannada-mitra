@@ -172,12 +172,16 @@ export async function callGeminiApi({
     topP: 0.95,
   };
 
-  // For Gemini 3 series flash/pro models (except flash-lite models),
-  // configure thinkingLevel to LOW to minimize reasoning latency for conversational tutoring.
-  // Flash-lite models omit thinkingConfig completely for maximum speed (~2.4s).
-  if (model.includes('3') && !model.includes('lite') && (model.includes('flash') || model.includes('pro'))) {
+  // Minimize reasoning latency for conversational tutoring:
+  // For Gemini 3 & 4 series: MINIMAL matches 'no thinking' and minimizes latency for chat.
+  // For Gemini 2.5 & 2.0 series: thinkingBudget: 0 disables thinking tokens completely.
+  if (model.includes('3') || model.includes('4')) {
     generationConfig.thinkingConfig = {
-      thinkingLevel: 'LOW',
+      thinkingLevel: 'MINIMAL',
+    };
+  } else if (model.includes('2.5') || model.includes('2.0')) {
+    generationConfig.thinkingConfig = {
+      thinkingBudget: 0,
     };
   }
 
