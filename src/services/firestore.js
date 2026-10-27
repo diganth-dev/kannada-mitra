@@ -48,9 +48,6 @@ export const createInitialProfile = (uid, email = '', displayName = '') => ({
   updatedAt: new Date().toISOString(),
 });
 
-/**
- * Fetch a user's private document from Cloud Firestore: /users/{uid}
- */
 export const getUserProfile = async (uid) => {
   if (!isFirebaseConfigured() || !db || !uid) {
     return null;
